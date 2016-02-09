@@ -1,7 +1,7 @@
 {
   "name": "nodejs_test",
   "version": "1.0.0",
-  "description": "testing nodejs",
+  "description": "Checking Request/Response XML in nodejs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/iminsik/nodejs_test#readme",
   "devDependencies": {
-    "xml2js": "^0.4.16"
+    "edge": "^5.0.0",
+    "express": "^4.13.4",
+    "xml2js": "^0.4.16",
+    "xmldom": "^0.1.22"
   }
 }
