@@ -11,7 +11,7 @@ parser.addListener('end', function(json) {
     
     fs.writeFile(
         __dirname + '/foo.json',
-        JSON.stringify(json, null, "\t"),
+        JSON.stringify(json, null, "  "),
         function(err, data) {
             if(!err) {
                 console.log('Converted and saved in foo.json!');
