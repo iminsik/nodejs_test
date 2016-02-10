@@ -1,347 +1,527 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AagBSElem:BookingState xmlns:as="http://www.alaskaair.com/2003/08/ASDataTypes.xsd" xmlns:AagBS="http://www.alaskaair.com/2003/08/BookingState.xsd" xmlns:AagPI="http://www.alaskaair.com/2003/08/PricingInput.xsd" xmlns:SeatMaps="http://www.alaskaair.com/SeatMaps.xsd" xmlns:GeOpt="http://www.alaskaair.com/2003/10/GenEntities_Options" xmlns:GeMap="http://www.alaskaair.com/2003/10/GenEntities_MapNamespaces" xmlns:AagItin="http://www.alaskaair.com/2003/08/Itinerary.xsd" xmlns:AagBSElem="http://www.alaskaair.com/2003/08/BookingStateElem.xsd" xmlns:airports="http://www.alaskaair.com/2003/08/Airports.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" AppState="viewpnr" BookingType="R" ErrorCode="0" MPBonusActive="F" RedeemCode="0" RequestDateTime="2016-02-02T10:54:46-08:00" version="1.2" XMLCreationDate="20160201" XMLCreationTime="0948">
-<Confirmations>
-<Confirmation Action="reissue" Currency="USD" GrandTotalFare="1463.50" International="false" NumberOfPassengers="1" PNRCreationDate="20160128" PNRCreationTime="1923" RecLoc="GHCPIS" TotalBaseFare="1354.72" TotalDiscount="0.00" TotalTax="108.78">
-<TravelArranger Action="add" ArrangerGuid="{54659F33-977B-415A-991E-2BD94682B41C}" CountryCode="1" Extension="" IPAddress="127.0.0.1" Number="3605619079" PersonName="Insik Tester">
-<Loyalty Action="add">
-  <CompanyCode>AS</CompanyCode> 
-  <TierStatus TrackingLoyaltyNbr="">STANDARD</TierStatus> 
-  <TierStatusDetail /> 
-  <ProgramName>203522944</ProgramName> 
-  <Club49TravelQualified /> 
-  </Loyalty>
-  </TravelArranger>
-<Passengers AllPaxSamePayment="true" AllPaxSamePricingSolution="true">
-<Passenger Action="keep" PaxID="0" PaxNbr="1.1">
-<PersonName>
-  <LastName>TESTER</LastName> 
-  <FirstName>RICHARDSON</FirstName> 
-  </PersonName>
-<PassengerContact>
-  <Telephone Action="add" CountryCode="1" Extension="" Number="3605619079" /> 
-  <Email Action="add" Addr="insik.cho@alaskaair.com" /> 
-  </PassengerContact>
-<Receipt Action="add" PaperCopy="false">
-  <Email Action="add" Addr="insik.cho@alaskaair.com" /> 
-  </Receipt>
-<BaggageAllowances>
-<CarryonBagAllowance>
-  <BagAllowance Description="Each passenger is limited to one carry-on bag that measures up to 10x17x24, plus one personal item. For travel on our partner airlines, please check their rules." DisplayPrice="0.00" DisplayPriceIncludesTaxes="false" MSCarrierCode="AS" MSCarrierURL="" PrimaryCurrency="USD" /> 
-  </CarryonBagAllowance>
-<CheckedBagAllowance>
-  <BagAllowance Description="Up to 50 lb/23 kg" DisplayPrice="25.00" DisplayPriceIncludesTaxes="false" MSCarrierCode="AS" MSCarrierURL="" PrimaryCurrency="USD" /> 
-  <BagAllowance Description="Up to 50 lb/23 kg" DisplayPrice="25.00" DisplayPriceIncludesTaxes="false" MSCarrierCode="AS" MSCarrierURL="" PrimaryCurrency="USD" /> 
-  <BagAllowance Description="Up to 100 lb/45 kg" DisplayPrice="75.00" DisplayPriceIncludesTaxes="false" MSCarrierCode="AS" MSCarrierURL="" PrimaryCurrency="USD" /> 
-  </CheckedBagAllowance>
-  </BaggageAllowances>
-<TravelDocuments>
-<SecureFlightTravelDocuments>
-  <SecureFlightTravelDocument Action="delete" DateOfBirth="1967-10-02T00:00:00-07:00" FirstName="RICHARDSON" Gender="F" LastName="TESTER" MiddleName="" NameSuffix="" /> 
-  <SecureFlightTravelDocument Action="add" DateOfBirth="1967-10-02T00:00:00-07:00" FirstName="RICHARDSON" Gender="F" LastName="TESTER" MiddleName="" NameSuffix="" /> 
-  </SecureFlightTravelDocuments>
-  </TravelDocuments>
-<PricingInput TaxesAsOfDate="20160128">
-<PricingInputComponent>
-<PricingInputSegments>
-  <PricingInputSegment CrsSegID="3" SegNbr="1" TripNbr="1" PricingSegID="3" /> 
-  <PricingInputSegment CrsSegID="4" SegNbr="1" TripNbr="2" PricingSegID="4" /> 
-  </PricingInputSegments>
-  <PricingInputPax PaxID="0" /> 
-  <FaresAsOfDate BeginDate="20160128" EndDate="20160128" /> 
-  </PricingInputComponent>
-  </PricingInput>
-<PricingSolutions>
-+ <PricingSolution Action="reissue_old" AlreadyTktd="true" BaseFare="1354.72" BaseFareDiscount="0.00" BookedOnWeb="false" CreationDate="20160201" CreationTime="0948" Currency="USD" Endorsements="VALID AS" EquivBaseFare="1354.72" EquivCurrency="USD" FareLadder="LAX AS X/SEA AS ANC677.36YASAR1 AS X/SEA AS LAX677.36YASAR1 1354.72END ZPSEAANCSEALAX XT11.20AY16.00ZP16.50XFLAX4.5SEA4.5ANC3SEA4.5" FareLadderAssumingBoxedTaxes="LAX AS X/SEA AS ANC677.36YASAR1 AS X/SEA AS LAX677.36YASAR1 1354.72END ZPSEAANCSEALAX XFLAX4.5SEA4.5ANC3SEA4.5" FareLadderBaseFareAndSurcharges="1354.72" FareLadderToPrimaryROE="0" FirstName="RICHARDSON" IssueDate="20160128" IssueDateTime="2016-01-28T17:23:00-08:00" LastName="TESTER" MatchesItin="true" MatchesItinExceptCabin="true" OriginalTicketNbr="0272182142674" OriginalTicketNbrEndSeq="0272182142674" OriginalIssueDate="20160128" PartlyUsed="true" PaxID="0" PaxNbr="1.1" PaxType="ADT" PricingProvider="SABRE" PricingSource="ETicket" PrimaryBaseFare="1354.72" PrimaryCurrency="USD" Tax="108.78" TaxDiscount="0.00" TicketNbr="0272182142674" TicketNbrEndSeq="0272182142674" TktCreationAtacCode="TM" TktCreationCity="SEA" TktExpirationDate="20170128" TotalDiscountUSDAmt="0.00" TotalFare="1463.50" TotalFareDiscount="0.00" Type="ETicket" ValidForTvl="true" ValidUpgradeExists="false">
-<PricingInput TaxesAsOfDate="20160128">
-<PricingInputComponent>
-<PricingInputSegments>
-  <PricingInputSegment CrsSegID="3" SegNbr="1" TripNbr="1" PricingSegID="3" /> 
-  <PricingInputSegment CrsSegID="4" SegNbr="1" TripNbr="2" PricingSegID="4" /> 
-  </PricingInputSegments>
-  <FaresAsOfDate BeginDate="20160128" EndDate="20160128" /> 
-  </PricingInputComponent>
-  </PricingInput>
-<IssueDates>
-  <IssueDate Date="20160128" /> 
-  </IssueDates>
-<PaymentForm>
-<CreditCard Action="keep" ExpiryMonth="~~4622B99E-EFBA-4e3b-9AE0-9C19EC60C045|001|gABaK6PBqXJiHd2Hgsx3lLmlx+Slw8XZ4S6PMUkLlzlNS17a93BTOIsRl9XCscnUcsion/af2ND4D06Y0cr+9LLE6ubcwUNV7cQezeNajGutgTQc1176bxtiNWf8+EMFyW8ybWoI5zqjdeEFWLVI6Euj9NeMNDZYi7hrcAG6bARVwAwKb3tuAwHIPELuqhs6jmCoQEgbbsXfCDx81Pr4wuaw" ExpiryYear="~~4622B99E-EFBA-4e3b-9AE0-9C19EC60C045|001|gABXLZol2JEN/vbAHYmR8ICmsXbW4FPnwkO51HeDT9NmtJ0vQEOIuw07zBCt3ZsN4Au37giuX0TnK8PJaYps6E4sh9jBcMy0MMFbLRvjUwysSJYAJSGqBaj8tuaqISFQQh8rwbdI7o8unMLSHUvIv3AkNC9kCtK0x1trAzvMB6ZXz5UceKy6aQOtKA7FCE4QeLXlpnZLw0N7B+9dvHfYWuqV" IssueCompName="" Number="~~4622B99E-EFBA-4e3b-9AE0-9C19EC60C045|001|gABVc+DqWeaoAkbyljtsbvFjGf/dqY/hmerTyxBQWnSvX0GEOykZSDWc1sasFLvTBfkXXGuW9cWee1Ki276Ocz0NjGBcUlmzpa9ah6Zz2XyKRAHjNYUGThQe3B6i2wA8MoSK7YnLxuyoXuBw2FvybBSFfsZXBn+AYb15NiTyAABhhuJM6CqT/pXULQovkMgQB4Bj421c/jG2MMpukycXvBbJ" PersonName="" Type="AS">
-  <Address BldgRoom="" CityName="" CountryCode="" PersonName="" PostalCode="" StateProv="" StreetNmbr="" /> 
-  <Telephone Action="keep" CountryCode="" Extension="" Number="" /> 
-  </CreditCard>
-  <Email Action="" Addr="" /> 
-  </PaymentForm>
-<FeesAndTaxes>
-  <FeeOrTax Amt="4.00" Boxed="false" Code="ZP" CountryCode="US" CRSCode="ZP" Currency="USD" DepCity="LAX" ID="USZP" RefundAmt="0.00" Sequence="0" USDAmt="4.00" Name="US Flight Segment Tax" /> 
-  <FeeOrTax Amt="4.00" Boxed="false" Code="ZP" CountryCode="US" CRSCode="ZP" Currency="USD" DepCity="SEA" ID="USZP" RefundAmt="0.00" Sequence="1" USDAmt="4.00" Name="US Flight Segment Tax" /> 
-  <FeeOrTax Amt="4.00" Boxed="false" Code="ZP" CountryCode="US" CRSCode="ZP" Currency="USD" DepCity="ANC" ID="USZP" RefundAmt="0.00" Sequence="2" USDAmt="4.00" Name="US Flight Segment Tax" /> 
-  <FeeOrTax Amt="4.00" Boxed="false" Code="ZP" CountryCode="US" CRSCode="ZP" Currency="USD" DepCity="SEA" ID="USZP" RefundAmt="0.00" Sequence="3" USDAmt="4.00" Name="US Flight Segment Tax" /> 
-  <FeeOrTax Amt="4.50" Boxed="false" Code="XF" CountryCode="US" CRSCode="XF" Currency="USD" DepCity="LAX" ID="USPFC" RefundAmt="0.00" Sequence="0" USDAmt="4.50" Name="US psgr. facility charge" /> 
-  <FeeOrTax Amt="4.50" Boxed="false" Code="XF" CountryCode="US" CRSCode="XF" Currency="USD" DepCity="SEA" ID="USPFC" RefundAmt="0.00" Sequence="1" USDAmt="4.50" Name="US psgr. facility charge" /> 
-  <FeeOrTax Amt="3.00" Boxed="false" Code="XF" CountryCode="US" CRSCode="XF" Currency="USD" DepCity="ANC" ID="USPFC" RefundAmt="0.00" Sequence="2" USDAmt="3.00" Name="US psgr. facility charge" /> 
-  <FeeOrTax Amt="4.50" Boxed="false" Code="XF" CountryCode="US" CRSCode="XF" Currency="USD" DepCity="SEA" ID="USPFC" RefundAmt="0.00" Sequence="3" USDAmt="4.50" Name="US psgr. facility charge" /> 
-  <FeeOrTax Amt="11.20" Boxed="false" Code="AY" CountryCode="US" CRSCode="AY" Currency="USD" ID="USSECURITY" RefundAmt="0.00" USDAmt="11.20" Name="US Sept. 11 security fee" /> 
-  <FeeOrTax Amt="47.28" Boxed="true" Code="US1" CountryCode="US" CRSCode="US" Currency="USD" ID="USTRANSP" RefundAmt="0.00" USDAmt="47.28" Name="US Transportation Tax" /> 
-  <FeeOrTax Amt="8.90" Boxed="true" Code="US2" CountryCode="US" CRSCode="US" Currency="USD" DepCity="SEA" ID="USAKHI" RefundAmt="0.00" USDAmt="8.90" Name="US Alaska/Hawaii Departure Tax" /> 
-  <FeeOrTax Amt="8.90" Boxed="true" Code="US2" CountryCode="US" CRSCode="US" Currency="USD" DepCity="ANC" ID="USAKHI" RefundAmt="0.00" USDAmt="8.90" Name="US Alaska/Hawaii Departure Tax" /> 
-  </FeesAndTaxes>
-<FareBases>
-<FareBasis Amt="677.36" Carrier="AS" Code="YASAR1" Currency="USD" Discount="0.00" EquivCurrency="USD" FareBasisID="0" ITARulesKey="A6dCpSy8qLDJp9BNDLZLU1eUrshF+0sMzhsN3Q79x0UA" PaxType="ADT" Record1FareType="EU" TktDesignator="" USDAmt="677.36" USDDiscount="0.00">
-  <FaresAsOfDate BeginDate="20160128" EndDate="20160128" /> 
-  <RulesAsOfDate BeginDate="20160128" EndDate="20160128" /> 
-  <FeesAndTaxes /> 
-<Segments>
-<Segment Action="keep" ArrCity="SEA" Bucket="Y" Cabin="Y" Carrier="AS" CouponStatus="USED" CrsSegID="" DepCity="LAX" DepDate="20160128" DepDay="28" DepMon="JAN" DepTime="1740" Flt="461" HasCOSChange="false" NotValidAfter="20170128" NotValidBefore="20160128" PricingSegID="1" StopoverAllowedAtDepCity="false">
-  <FeesAndTaxes /> 
-  </Segment>
-<Segment Action="keep" ArrCity="ANC" Bucket="Y" Cabin="Y" Carrier="AS" CouponStatus="USED" CrsSegID="" DepCity="SEA" DepDate="20160128" DepDay="28" DepMon="JAN" DepTime="2140" Flt="755" HasCOSChange="false" NotValidAfter="20170128" NotValidBefore="20160128" PricingSegID="2" StopoverAllowedAtDepCity="false">
-  <FeesAndTaxes /> 
-  </Segment>
-  </Segments>
-  <FareRules Restrictions="U^ITA" /> 
-  </FareBasis>
-<FareBasis Amt="677.36" Carrier="AS" Code="YASAR1" Currency="USD" Discount="0.00" EquivCurrency="USD" FareBasisID="1" ITARulesKey="A6dCpSy8qLDJp9BNDLZLU1eUrshF+0sMzhsN3Q79x0UA" PaxType="ADT" Record1FareType="EU" TktDesignator="" USDAmt="677.36" USDDiscount="0.00">
-  <FaresAsOfDate BeginDate="20160128" EndDate="20160128" /> 
-  <RulesAsOfDate BeginDate="20160128" EndDate="20160128" /> 
-  <FeesAndTaxes /> 
-<Segments>
-<Segment Action="keep" ArrCity="SEA" Bucket="Y" Cabin="Y" Carrier="AS" CouponStatus="OK" CrsSegID="3" DepCity="ANC" DepDate="20160214" DepDay="14" DepDow="6" DepMon="FEB" DepTime="0600" Flt="104" HasCOSChange="false" NotValidAfter="20170128" NotValidBefore="20160128" PricingSegID="3" SegNbr="1" StopoverAllowedAtDepCity="true" TripNbr="1">
-  <FeesAndTaxes /> 
-  </Segment>
-<Segment Action="keep" ArrCity="LAX" Bucket="Y" Cabin="Y" Carrier="AS" CouponStatus="OK" CrsSegID="4" DepCity="SEA" DepDate="20160214" DepDay="14" DepDow="6" DepMon="FEB" DepTime="1200" Flt="536" HasCOSChange="false" NotValidAfter="20170128" NotValidBefore="20160128" PricingSegID="4" SegNbr="1" StopoverAllowedAtDepCity="false" TripNbr="2">
-  <FeesAndTaxes /> 
-  </Segment>
-  </Segments>
-  <FareRules Restrictions="U^ITA" /> 
-  </FareBasis>
-  </FareBases>
-  <PriceableUnits /> 
-  <FareRules Restrictions="U^A^ITA" /> 
-  </PricingSolution>
-<PricingSolution Action="reissue_new" AlreadyTktd="false" BaseFare="1354.72" BaseFareDiscount="0.00" BookedOnWeb="true" CreationDate="20160202" CreationTime="1051" Currency="USD" Endorsements="VALID AS" EquivBaseFare="1354.72" EquivCurrency="USD" FareGuaranteedUntilDay="20160202" FareLadder="LAX AS X/SEA AS ANC677.36YASAR1 AS X/SEA AS X/SFO AS LAX677.36YASAR1 USD1354.72END ZP LAXSEAANCSEASFO XT 17.80US47.28US20.00ZP11.20AY18.00XF LAX4.50SEA4.50SEA4.50SFO4.50" FareLadderToPrimaryROE="1" FirstName="RICHARDSON" IssueDate="20160202" LastName="TESTER" MatchesItin="true" MatchesItinExceptCabin="false" OriginalTicketNbr="0272182142674" OriginalTicketNbrEndSeq="0272182142674" OriginalIssueDate="20160128" PartlyUsed="true" PaxID="0" PaxNbr="1.1" PaxType="ADT" PricingProvider="ITA" PricingSource="NewITAPrice" PrimaryBaseFare="1354.72" PrimaryCurrency="USD" PrimaryToEquivROE="1" Tax="114.28" TaxDiscount="0.00" TktCreationCity="NET" TktExpirationDate="20170128" TotalDiscountUSDAmt="0.00" TotalFare="1469.00" TotalFareDiscount="0.00" Type="NewITAPrice" USTaxDiscount="0.00" ValidUpgradeExists="false" VerifyPrice="false">
-<PricingInput Currency="USD" TaxesAsOfDate="20160202">
-<PricingInputComponent>
-<PricingInputSegments>
-  <PricingInputSegment CrsSegID="3" SegNbr="1" TripNbr="1" PricingSegID="3" /> 
-  <PricingInputSegment CrsSegID="4" SegNbr="1" TripNbr="2" PricingSegID="4" /> 
-  <PricingInputSegment CrsSegID="5" SegNbr="2" TripNbr="2" PricingSegID="5" /> 
-  </PricingInputSegments>
-<PricingInputPax PaxID="0" PaxTypeMatchRequired="false">
-  <Pax AcctCode="" Age="0" CountryCode="" DiscountCode="" StateCode="" Type="ADT" /> 
-  </PricingInputPax>
-  <CommandPrice FareBasis="YASAR1" FareDest="LAX" FareOrig="ANC" TktDesignator="" /> 
-  <FaresAsOfDate BeginDate="20160202" EndDate="20160202" /> 
-  <RulesAsOfDate BeginDate="20160202" EndDate="20160202" /> 
-  <FareFilter HideAdvPurchFares="false" HideMinMaxStayFares="false" HidePenaltyFares="false" /> 
-  </PricingInputComponent>
-  </PricingInput>
-  <IssueDates /> 
-<PaymentForm>
-<CreditCard Action="keep" ExpiryMonth="~~4622B99E-EFBA-4e3b-9AE0-9C19EC60C045|001|gABnMcN2Lc8E5F/z7iqMlWpUn1im81QyEGx7uyxtLpz1tndlRqia3IGqVEANrudIDb0gqpcc8Pzsa7T6M3YGmiMTkZ0LyPgmOT3jf6L3Cou0F+QAydvPIqpdOva6s5YfCP28NGsiNkHAT1Ftu2PWZqHh2rTQjeAovMaD1WyYPCCAI3MvOGRwCUfCOTJF/wOFJpwYbfaJ3ktk2sOynNXp8ILr" ExpiryYear="~~4622B99E-EFBA-4e3b-9AE0-9C19EC60C045|001|gAC7lvtGpn0xzr+scwe3FEw0YsYlEi8most+qt6SCnO+ZBB4tbqTCTIweYYsKqa22H1L+rN6aM0stdwhdldxcwiepiT1kqTd1YCXiCJKVthsBcZf5tcWRqPd1fVvnGuPlpaovsPpECS8Mb9KONMtSnjGsMJNTgdnhSrMxC42GminOxsKkx6LP44e83pmSV0NQreRXpYcYnhGI5U/AsTApGnV" Number="~~4622B99E-EFBA-4e3b-9AE0-9C19EC60C045|001|gACOYgacPQ+qnl/WVL7cBkdcwsLbRyIY4qgpI+TuOi6vWUnN5oXH/8Fqv5L/iX2jHJfMvl9r5GVzRlJlXkZTCM6SFN6AIKtCs/x5AW5MdUX0SoCTlQEq6H/iB2DCXAFp7yCxinb61Vf8OuGznS1Vam5UIh+1n9YAl9F5Bz+HMSAFqzyxyalSohq3StH2jHcLL0khQdGkcRWbTUoXbBQlf9k0" PersonName="Insik Tester" Type="AS">
-  <Address BldgRoom="" CityName="Seattle" CountryCode="US" PersonName="Insik Tester" PostalCode="98109" StateProv="WA" StreetNmbr="1308 6th Ave N #202" /> 
-  <Telephone Action="add" CountryCode="1" Number="3605619079" /> 
-  </CreditCard>
-  <Email Action="" Addr="" /> 
-  </PaymentForm>
-<FeesAndTaxes>
-  <FeeOrTax Amt="4.00" Boxed="false" Code="ZP" CRSCode="ZP" Currency="USD" DepCity="LAX" Sequence="0" USDAmt="4.00" Name="US Flight Segment Tax" /> 
-  <FeeOrTax Amt="4.00" Boxed="false" Code="ZP" CRSCode="ZP" Currency="USD" DepCity="SEA" Sequence="1" USDAmt="4.00" Name="US Flight Segment Tax" /> 
-  <FeeOrTax Amt="4.00" Boxed="false" Code="ZP" CRSCode="ZP" Currency="USD" DepCity="ANC" Sequence="2" USDAmt="4.00" Name="US Flight Segment Tax" /> 
-  <FeeOrTax Amt="4.00" Boxed="false" Code="ZP" CRSCode="ZP" Currency="USD" DepCity="SEA" Sequence="3" USDAmt="4.00" Name="US Flight Segment Tax" /> 
-  <FeeOrTax Amt="4.00" Boxed="false" Code="ZP" CRSCode="ZP" Currency="USD" DepCity="SFO" Sequence="4" USDAmt="4.00" Name="US Flight Segment Tax" /> 
-  <FeeOrTax Amt="4.50" Boxed="false" Code="XF" CRSCode="XF" Currency="USD" DepCity="LAX" Sequence="0" USDAmt="4.50" Name="US psgr. facility charge" /> 
-  <FeeOrTax Amt="4.50" Boxed="false" Code="XF" CRSCode="XF" Currency="USD" DepCity="SEA" Sequence="1" USDAmt="4.50" Name="US psgr. facility charge" /> 
-  <FeeOrTax Amt="4.50" Boxed="false" Code="XF" CRSCode="XF" Currency="USD" DepCity="SEA" Sequence="2" USDAmt="4.50" Name="US psgr. facility charge" /> 
-  <FeeOrTax Amt="4.50" Boxed="false" Code="XF" CRSCode="XF" Currency="USD" DepCity="SFO" Sequence="3" USDAmt="4.50" Name="US psgr. facility charge" /> 
-  <FeeOrTax Amt="17.80" Boxed="false" Code="US2" CountryCode="US" CRSCode="US" Currency="USD" ID="USAKHI" RefundAmt="0.00" USDAmt="17.80" Name="US Alaska/Hawaii Departure Tax" /> 
-  <FeeOrTax Amt="47.28" Boxed="false" Code="US1" CountryCode="US" CRSCode="US" Currency="USD" ID="USTRANSP" RefundAmt="0.00" USDAmt="47.28" Name="US Transportation Tax" /> 
-  <FeeOrTax Amt="11.20" Boxed="false" Code="AY" CountryCode="US" CRSCode="AY" Currency="USD" ID="USSECURITY" RefundAmt="0.00" USDAmt="11.20" Name="US Sept. 11 security fee" /> 
-  </FeesAndTaxes>
-<FareBases>
-<FareBasis Amt="677.36" Carrier="AS" Code="YASAR1" Currency="USD" Discount="0.00" EquivAmt="677.36" EquivCurrency="USD" FareBasisID="0" ITARulesKey="A6dCpSy8qLDJp9BNDLZLU1eUrshF+0sMzhsN3Q79x0UA" PaxType="ADT" Record1FareType="EU" TktDesignator="" USDAmt="677.36" USDDiscount="0.00">
-  <FaresAsOfDate BeginDate="20160202" EndDate="20160202" /> 
-  <RulesAsOfDate BeginDate="20160202" EndDate="20160202" /> 
-  <FeesAndTaxes /> 
-<Segments>
-<Segment ArrCity="SEA" ArrDate="20160128" ArrDay="28" ArrMon="JAN" ArrTime="2025" Bucket="Y" Cabin="Y" Carrier="AS" CrsSegID="" DepCity="LAX" DepDate="20160128" DepDay="28" DepMon="JAN" DepTime="1740" DistanceLength="954" DistanceUnit="MI" Equipment="739" Flt="461" GroundDurationMinutes="0" HasCOSChange="false" NbrStops="0" NotValidAfter="20170128" NotValidBefore="20160128" OnTimePcnt="87" Late30PlusMinutesPcnt="6" CanceledPcnt="0" ChronicallyDelayed="false" PricingSegID="1" SegNbr="" StopoverAllowedAtDepCity="true" TravelDurationMinutes="165" TripNbr="">
-  <FeesAndTaxes /> 
-  </Segment>
-<Segment ArrCity="ANC" ArrDate="20160129" ArrDay="29" ArrMon="JAN" ArrTime="0031" Bucket="Y" Cabin="Y" Carrier="AS" CrsSegID="" DepCity="SEA" DepDate="20160128" DepDay="28" DepMon="JAN" DepTime="2140" DistanceLength="1,444" DistanceUnit="MI" Equipment="739" Flt="755" GroundDurationMinutes="0" HasCOSChange="false" NbrStops="0" NotValidAfter="20170128" NotValidBefore="20160128" OnTimePcnt="87" Late30PlusMinutesPcnt="9" CanceledPcnt="0" ChronicallyDelayed="false" PricingSegID="2" SegNbr="" StopoverAllowedAtDepCity="false" TravelDurationMinutes="231" TripNbr="">
-  <FeesAndTaxes /> 
-  </Segment>
-  </Segments>
-  </FareBasis>
-<FareBasis Amt="677.36" Carrier="AS" Code="YASAR1" Currency="USD" Discount="0.00" EquivAmt="677.36" EquivCurrency="USD" FareBasisID="1" ITARulesKey="A6dCpSy8qLDJp9BNDLZLU1eUrshF+0sMzhsN3Q79x0UA" PaxType="ADT" Record1FareType="EU" TktDesignator="" USDAmt="677.36" USDDiscount="0.00">
-  <FaresAsOfDate BeginDate="20160202" EndDate="20160202" /> 
-  <RulesAsOfDate BeginDate="20160202" EndDate="20160202" /> 
-  <FeesAndTaxes /> 
-<Segments>
-<Segment ArrCity="SEA" ArrDate="20160214" ArrDay="14" ArrMon="FEB" ArrTime="1024" Bucket="Y" Cabin="Y" Carrier="AS" CrsSegID="3" DepCity="ANC" DepDate="20160214" DepDay="14" DepMon="FEB" DepTime="0600" DistanceLength="1,444" DistanceUnit="MI" Equipment="738" Flt="104" GroundDurationMinutes="0" HasCOSChange="false" NbrStops="0" NotValidAfter="20170128" NotValidBefore="20160214" OnTimePcnt="83" Late30PlusMinutesPcnt="5" CanceledPcnt="0" ChronicallyDelayed="false" PricingSegID="3" SegNbr="1" StopoverAllowedAtDepCity="true" TravelDurationMinutes="204" TripNbr="1">
-  <FeesAndTaxes /> 
-  </Segment>
-<Segment ArrCity="SFO" ArrDate="20160214" ArrDay="14" ArrMon="FEB" ArrTime="1710" Bucket="Y" Cabin="Y" Carrier="AS" CrsSegID="4" DepCity="SEA" DepDate="20160214" DepDay="14" DepMon="FEB" DepTime="1505" DistanceLength="678" DistanceUnit="MI" Equipment="73G" Flt="308" GroundDurationMinutes="0" HasCOSChange="false" NbrStops="0" NotValidAfter="20170128" NotValidBefore="20160214" OnTimePcnt="57" Late30PlusMinutesPcnt="26" CanceledPcnt="0" ChronicallyDelayed="false" PricingSegID="4" SegNbr="1" StopoverAllowedAtDepCity="false" TravelDurationMinutes="125" TripNbr="2">
-  <FeesAndTaxes /> 
-  </Segment>
-<Segment ArrCity="LAX" ArrDate="20160214" ArrDay="14" ArrMon="FEB" ArrTime="1958" Bucket="Y" Cabin="Y" Carrier="AS" CrsSegID="5" DepCity="SFO" DepDate="20160214" DepDay="14" DepMon="FEB" DepTime="1830" DistanceLength="337" DistanceUnit="MI" Equipment="738" Flt="1460" GroundDurationMinutes="0" HasCOSChange="false" NbrStops="0" NotValidAfter="20170128" NotValidBefore="20160214" OnTimePcnt="73" Late30PlusMinutesPcnt="13" CanceledPcnt="0" ChronicallyDelayed="false" PricingSegID="5" SegNbr="2" StopoverAllowedAtDepCity="false" TravelDurationMinutes="88" TripNbr="2">
-  <FeesAndTaxes /> 
-  </Segment>
-  </Segments>
-  </FareBasis>
-  </FareBases>
-  <PriceableUnits /> 
-  <FareRules Restrictions="U^A^ITA" /> 
-  <ReissueInfo ReissueRequestType="Standard" RefundAmt="0.00" RefundCertain="true" TotalAmtDue="5.50" WaiveChangeFeeAmt="125.00" WaiveChangeFeeCode="None" waiveChangeFeeTrackingReason="Coach Fare Auto Waiver" /> 
-  </PricingSolution>
-  </PricingSolutions>
-  <PaperTickets /> 
-  </Passenger>
-  </Passengers>
-  <ViewPnrData /> 
-<Itinerary Action="add" PNRSegCount="5" Upgradable="false" UpgradableForGuest="true" UpgradeShopped="UNRESTRICTED">
-<Trip TotalDurationMinutes="204" TripNbr="1">
-<Segment Action="keep" ArrCity="SEA" ArrDate="20160214" ArrDateOffset="0" ArrDay="14" ArrMon="FEB" ArrTime="1024" Bucket="Y" Cabin="Y" Carrier="AS" ChangeOfEquipment="false" CrsSegID="3" DepCity="ANC" DepDate="20160214" DepDay="14" DepDow="6" DepMon="FEB" DepTime="0600" DispCarrier="AS" DistanceLength="1,444" DistanceUnit="MI" EligibleForET="true" Equipment="738" Flt="104" GroundDurationMinutes="0" HasCOSChange="false" NbrStops="0" OldCrsSegID="3" OnTimePcnt="83" Late30PlusMinutesPcnt="5" CanceledPcnt="0" ChronicallyDelayed="false" OpCarrier="AS" OpFlt="104" OpRecLoc="" SegNbr="1" Status="HK" TripNbr="1" TravelDurationMinutes="204" Upgradable="false" UpgradableForGuest="true" SubjectToGovtApproval="false">
-  <Meal Cabin="F" MealType="B" /> 
-  <Meal Cabin="Y" MealType="F" /> 
-  <Meal Cabin="Y" MealType="F" /> 
-  <Avail ASBucket="F" ASNbrSeats="3" /> 
-  <Avail ASBucket="D" ASNbrSeats="3" /> 
-  <Avail ASBucket="P" ASNbrSeats="0" /> 
-  <Avail ASBucket="U" ASNbrSeats="0" /> 
-  <Avail ASBucket="A" ASNbrSeats="0" /> 
-  <Avail ASBucket="Y" ASNbrSeats="7" /> 
-  <Avail ASBucket="Z" ASNbrSeats="7" /> 
-  <Avail ASBucket="S" ASNbrSeats="7" /> 
-  <Avail ASBucket="B" ASNbrSeats="7" /> 
-  <Avail ASBucket="M" ASNbrSeats="7" /> 
-  <Avail ASBucket="H" ASNbrSeats="7" /> 
-  <Avail ASBucket="Q" ASNbrSeats="7" /> 
-  <Avail ASBucket="L" ASNbrSeats="7" /> 
-  <Avail ASBucket="V" ASNbrSeats="7" /> 
-  <Avail ASBucket="K" ASNbrSeats="7" /> 
-  <Avail ASBucket="G" ASNbrSeats="7" /> 
-  <Avail ASBucket="T" ASNbrSeats="7" /> 
-  <Avail ASBucket="R" ASNbrSeats="7" /> 
-  <Avail ASBucket="N" ASNbrSeats="7" /> 
-  <Avail ASBucket="W" ASNbrSeats="7" /> 
-  <Avail ASBucket="E" ASNbrSeats="7" /> 
-  <SeatMaps StatusCode="0" StatusDescription="Status Code OK" ArrCity="SEA" DepCity="ANC" Equipment="738" /> 
-  </Segment>
-  </Trip>
-<Trip TotalDurationMinutes="293" TripNbr="2">
-<Segment Action="add" ArrCity="SFO" ArrDate="20160214" ArrDateOffset="0" ArrDay="14" ArrMon="FEB" ArrTime="1710" Bucket="Y" Cabin="Y" Carrier="AS" ChangeOfEquipment="false" CheckinInfo="" CrsSegID="4" DepCity="SEA" DepDate="20160214" DepDay="14" DepDow="6" DepMon="FEB" DepTime="1505" DispCarrier="AS" DistanceLength="678" DistanceUnit="MI" EligibleForET="true" Equipment="73G" Flt="308" FlightLoadStatus="NotSet" GroundDurationMinutes="0" HasCOSChange="false" NbrStops="0" OnTimePcnt="57" Late30PlusMinutesPcnt="26" CanceledPcnt="0" ChronicallyDelayed="false" OpCarrier="AS" OpDisclosure="" OpFlt="308" SegNbr="1" Status="HK" TripNbr="2" TravelDurationMinutes="125" UpgradableForGuest="true" SubjectToGovtApproval="false">
-  <Meal Cabin="F" MealType="S" /> 
-  <Meal Cabin="Y" MealType="F" /> 
-  <Avail ASBucket="F" ASNbrSeats="7" /> 
-  <Avail ASBucket="D" ASNbrSeats="7" /> 
-  <Avail ASBucket="P" ASNbrSeats="7" /> 
-  <Avail ASBucket="U" ASNbrSeats="7" /> 
-  <Avail ASBucket="A" ASNbrSeats="0" /> 
-  <Avail ASBucket="Y" ASNbrSeats="7" /> 
-  <Avail ASBucket="Z" ASNbrSeats="7" /> 
-  <Avail ASBucket="S" ASNbrSeats="7" /> 
-  <Avail ASBucket="B" ASNbrSeats="7" /> 
-  <Avail ASBucket="M" ASNbrSeats="7" /> 
-  <Avail ASBucket="H" ASNbrSeats="7" /> 
-  <Avail ASBucket="Q" ASNbrSeats="5" /> 
-  <Avail ASBucket="L" ASNbrSeats="5" /> 
-  <Avail ASBucket="V" ASNbrSeats="4" /> 
-  <Avail ASBucket="K" ASNbrSeats="3" /> 
-  <Avail ASBucket="G" ASNbrSeats="2" /> 
-  <Avail ASBucket="T" ASNbrSeats="2" /> 
-  <Avail ASBucket="R" ASNbrSeats="1" /> 
-  <Avail ASBucket="N" ASNbrSeats="6" /> 
-  <Avail ASBucket="W" ASNbrSeats="0" /> 
-  <Avail ASBucket="E" ASNbrSeats="4" /> 
-  <SeatMaps StatusCode="0" StatusDescription="Status Code OK" ArrCity="SFO" DepCity="SEA" Equipment="73G" /> 
-  </Segment>
-<Segment Action="add" ArrCity="LAX" ArrDate="20160214" ArrDateOffset="0" ArrDay="14" ArrMon="FEB" ArrTime="1958" Bucket="Y" Cabin="Y" Carrier="AS" ChangeOfEquipment="false" CheckinInfo="American Airlines" CrsSegID="5" DepCity="SFO" DepDate="20160214" DepDay="14" DepDow="6" DepMon="FEB" DepTime="1830" DispCarrier="AA" DistanceLength="337" DistanceUnit="MI" EligibleForET="true" Equipment="738" Flt="1460" FlightLoadStatus="NotSet" GroundDurationMinutes="0" HasCOSChange="false" NbrStops="0" OnTimePcnt="73" Late30PlusMinutesPcnt="13" CanceledPcnt="0" ChronicallyDelayed="false" OpCarrier="AA" OpDisclosure="" OpFlt="1143" SegNbr="2" Status="HK" TripNbr="2" TravelDurationMinutes="88" UpgradableForGuest="false" SubjectToGovtApproval="false">
-  <Avail ASBucket="F" ASNbrSeats="7" /> 
-  <Avail ASBucket="P" ASNbrSeats="7" /> 
-  <Avail ASBucket="Y" ASNbrSeats="7" /> 
-  <Avail ASBucket="S" ASNbrSeats="7" /> 
-  <Avail ASBucket="B" ASNbrSeats="7" /> 
-  <Avail ASBucket="M" ASNbrSeats="7" /> 
-  <Avail ASBucket="H" ASNbrSeats="7" /> 
-  <Avail ASBucket="Q" ASNbrSeats="7" /> 
-  <Avail ASBucket="L" ASNbrSeats="7" /> 
-  <Avail ASBucket="V" ASNbrSeats="7" /> 
-  <Avail ASBucket="K" ASNbrSeats="7" /> 
-  <Avail ASBucket="G" ASNbrSeats="7" /> 
-  <Avail ASBucket="T" ASNbrSeats="7" /> 
-  <Avail ASBucket="R" ASNbrSeats="7" /> 
-  <SeatMaps StatusCode="-2200" StatusDescription="#INVALID FLIGHT NUMBER#" ArrCity="LAX" DepCity="SFO" Equipment="738" /> 
-  </Segment>
-  </Trip>
-  </Itinerary>
-<Itinerary Action="delete" HistoryExists="true" PNRSegCount="2" TripBoundariesKnown="false" Upgradable="false" UpgradableForGuest="true">
-<Trip TripNbr="1">
-<Segment Action="keep" ArrCity="SEA" ArrDate="20160214" ArrDateOffset="0" ArrDay="14" ArrMon="FEB" ArrTime="1024" Bucket="Y" Cabin="Y" Carrier="AS" ChangeOfEquipment="false" CrsSegID="3" DepCity="ANC" DepDate="20160214" DepDay="14" DepDow="6" DepMon="FEB" DepTime="0600" DispCarrier="AS" DistanceLength="1,444" DistanceUnit="MI" EligibleForET="true" Equipment="738" Flt="104" GroundDurationMinutes="0" HasCOSChange="false" NbrStops="0" OnTimePcnt="83" Late30PlusMinutesPcnt="5" CanceledPcnt="0" ChronicallyDelayed="false" OpCarrier="AS" OpFlt="104" OpRecLoc="" SegNbr="1" Status="HK" TripNbr="1" TravelDurationMinutes="204" Upgradable="false" UpgradableForGuest="true">
-  <Meal Cabin="F" MealType="B" /> 
-  <Meal Cabin="Y" MealType="F" /> 
-  <Meal Cabin="Y" MealType="F" /> 
-  <Avail ASBucket="F" ASNbrSeats="3" /> 
-  <Avail ASBucket="D" ASNbrSeats="3" /> 
-  <Avail ASBucket="P" ASNbrSeats="0" /> 
-  <Avail ASBucket="U" ASNbrSeats="0" /> 
-  <Avail ASBucket="A" ASNbrSeats="0" /> 
-  <Avail ASBucket="Y" ASNbrSeats="7" /> 
-  <Avail ASBucket="Z" ASNbrSeats="7" /> 
-  <Avail ASBucket="S" ASNbrSeats="7" /> 
-  <Avail ASBucket="B" ASNbrSeats="7" /> 
-  <Avail ASBucket="M" ASNbrSeats="7" /> 
-  <Avail ASBucket="H" ASNbrSeats="7" /> 
-  <Avail ASBucket="Q" ASNbrSeats="7" /> 
-  <Avail ASBucket="L" ASNbrSeats="7" /> 
-  <Avail ASBucket="V" ASNbrSeats="7" /> 
-  <Avail ASBucket="K" ASNbrSeats="7" /> 
-  <Avail ASBucket="G" ASNbrSeats="7" /> 
-  <Avail ASBucket="T" ASNbrSeats="7" /> 
-  <Avail ASBucket="R" ASNbrSeats="7" /> 
-  <Avail ASBucket="N" ASNbrSeats="7" /> 
-  <Avail ASBucket="W" ASNbrSeats="7" /> 
-  <Avail ASBucket="E" ASNbrSeats="7" /> 
-  </Segment>
-  </Trip>
-<Trip TripNbr="2">
-<Segment Action="delete" ArrCity="LAX" ArrDate="20160214" ArrDateOffset="0" ArrDay="14" ArrMon="FEB" ArrTime="1438" Bucket="Y" Cabin="Y" Carrier="AS" ChangeOfEquipment="false" CrsSegID="4" DepCity="SEA" DepDate="20160214" DepDay="14" DepDow="6" DepMon="FEB" DepTime="1200" DispCarrier="AS" DistanceLength="954" DistanceUnit="MI" EligibleForET="true" Equipment="73G" Flt="536" GroundDurationMinutes="0" HasCOSChange="false" NbrStops="0" OnTimePcnt="77" Late30PlusMinutesPcnt="9" CanceledPcnt="0" ChronicallyDelayed="false" OpCarrier="AS" OpFlt="536" OpRecLoc="" SegNbr="1" Status="HK" TripNbr="2" TravelDurationMinutes="158" Upgradable="false" UpgradableForGuest="true">
-  <Meal Cabin="F" MealType="L" /> 
-  <Meal Cabin="Y" MealType="F" /> 
-  <Meal Cabin="Y" MealType="F" /> 
-  <Avail ASBucket="F" ASNbrSeats="0" /> 
-  <Avail ASBucket="D" ASNbrSeats="0" /> 
-  <Avail ASBucket="P" ASNbrSeats="0" /> 
-  <Avail ASBucket="U" ASNbrSeats="0" /> 
-  <Avail ASBucket="A" ASNbrSeats="0" /> 
-  <Avail ASBucket="Y" ASNbrSeats="7" /> 
-  <Avail ASBucket="Z" ASNbrSeats="7" /> 
-  <Avail ASBucket="S" ASNbrSeats="5" /> 
-  <Avail ASBucket="B" ASNbrSeats="4" /> 
-  <Avail ASBucket="M" ASNbrSeats="1" /> 
-  <Avail ASBucket="H" ASNbrSeats="0" /> 
-  <Avail ASBucket="Q" ASNbrSeats="0" /> 
-  <Avail ASBucket="L" ASNbrSeats="0" /> 
-  <Avail ASBucket="V" ASNbrSeats="0" /> 
-  <Avail ASBucket="K" ASNbrSeats="0" /> 
-  <Avail ASBucket="G" ASNbrSeats="0" /> 
-  <Avail ASBucket="T" ASNbrSeats="0" /> 
-  <Avail ASBucket="R" ASNbrSeats="0" /> 
-  <Avail ASBucket="N" ASNbrSeats="0" /> 
-  <Avail ASBucket="W" ASNbrSeats="0" /> 
-  <Avail ASBucket="E" ASNbrSeats="0" /> 
-  </Segment>
-  </Trip>
-<TktTimeLimit Action="keep" TimeLimitType="ticketed">
-  <FreeText>T-28JAN-SEA5DCT</FreeText> 
-  </TktTimeLimit>
-  </Itinerary>
-  <PaperTickets /> 
-  <BaggageInformation /> 
-<ConfirmationMisc NbrPhase4TktRecords="0">
-  <TransactionID Action="keep" Nbr="423901739e15348ff945b42ecc460ev29" EncKey="iS+VKUOo3+ztu5YCnoiVP7Ys9qi7qrPEAFUoyN+8yAtfDWmPbb6xeZE2x4FfBcO9" /> 
-  </ConfirmationMisc>
-  <LinkedConfirmations IsAdultConfirmationRequired="false" /> 
-  </Confirmation>
-  </Confirmations>
-  <AgentSession AgentID="" AuthorizationLevel="8" ClientID="web_test" PointOfSale="NET" ResAgentAAACity="" ResAgentImageAirport="" ResAgentUserID="" ResAgentSign="" UserGroup="" /> 
-  <AppHistory Date="20160201" ElapsedSeconds="2.20" FormName="CrsReservationManager" Time="0948" /> 
-  </AagBSElem:BookingState>
+<AagBSElem:BookingState xmlns:as="http://www.alaskaair.com/2003/08/ASDataTypes.xsd" xmlns:AagBS="http://www.alaskaair.com/2003/08/BookingState.xsd" xmlns:AagPI="http://www.alaskaair.com/2003/08/PricingInput.xsd" xmlns:SeatMaps="http://www.alaskaair.com/SeatMaps.xsd" xmlns:GeOpt="http://www.alaskaair.com/2003/10/GenEntities_Options" xmlns:GeMap="http://www.alaskaair.com/2003/10/GenEntities_MapNamespaces" xmlns:AagItin="http://www.alaskaair.com/2003/08/Itinerary.xsd" xmlns:AagBSElem="http://www.alaskaair.com/2003/08/BookingStateElem.xsd" xmlns:airports="http://www.alaskaair.com/2003/08/Airports.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" AppState="viewpnr" BookingType="R" ErrorCode="0" MPBonusActive="F" RedeemCode="0" RequestDateTime="2016-02-05T10:10:25-08:00" version="1.2" XMLCreationDate="20160205" XMLCreationTime="1002">
+	<Confirmations>
+		<Confirmation Action="keep" CrsCommitInBooking="true" Currency="USD" GrandTotalFare="961.30" International="false" NumberOfPassengers="1" PNRCreationDate="20160128" PNRCreationTime="1917" PreviouslyHeld="true" RecLoc="GHCOGP" TotalBaseFare="856.86" TotalDiscount="0.00" TotalTax="104.44">
+			<TravelArranger Action="keep" ArrangerGuid="{54659F33-977B-415A-991E-2BD94682B41C}" CountryCode="1" Extension="" IPAddress="127.0.0.1" Number="3605619079" PersonName="Insik Tester">
+				<Loyalty Action="add">
+					<CompanyCode>AS</CompanyCode>
+					<TierStatus TrackingLoyaltyNbr="">STANDARD</TierStatus>
+					<TierStatusDetail />
+					<ProgramName>203522944</ProgramName>
+					<Club49TravelQualified />
+				</Loyalty>
+			</TravelArranger>
+			<Passengers AllPaxSamePayment="false" AllPaxSamePricingSolution="true">
+				<Passenger Action="keep" PaxID="0" PaxNbr="1.1">
+					<PersonName>
+						<LastName>TESTER</LastName>
+						<FirstName>RICHARDSON</FirstName>
+					</PersonName>
+					<PassengerContact>
+						<Telephone Action="deleted" CountryCode="1" Extension="" Number="4651325468" />
+						<Telephone Action="keep" CountryCode="1" Extension="" Number="4651325468" />
+						<Email Action="deleted" Addr="INSIK.CHO@ALASKAAIR.COM" />
+						<Email Action="keep" Addr="insik.cho@alaskaair.com" />
+					</PassengerContact>
+					<Receipt Action="keep" PaperCopy="false">
+						<Email Action="add" Addr="insik.cho@alaskaair.com" />
+					</Receipt>
+					<BaggageAllowances>
+						<CarryonBagAllowance>
+							<BagAllowance Description="Each passenger is limited to one carry-on bag that measures up to 10&quot;x17&quot;x24&quot;, plus one personal item." DisplayPrice="0.00" DisplayPriceIncludesTaxes="false" MSCarrierCode="AS" MSCarrierURL="" PrimaryCurrency="USD" />
+						</CarryonBagAllowance>
+						<CheckedBagAllowance>
+							<BagAllowance Description="Up to 50 lb/23 kg" DisplayPrice="25.00" DisplayPriceIncludesTaxes="false" MSCarrierCode="AS" MSCarrierURL="" PrimaryCurrency="USD" />
+							<BagAllowance Description="Up to 50 lb/23 kg" DisplayPrice="25.00" DisplayPriceIncludesTaxes="false" MSCarrierCode="AS" MSCarrierURL="" PrimaryCurrency="USD" />
+							<BagAllowance Description="Up to 100 lb/45 kg" DisplayPrice="75.00" DisplayPriceIncludesTaxes="false" MSCarrierCode="AS" MSCarrierURL="" PrimaryCurrency="USD" />
+						</CheckedBagAllowance>
+					</BaggageAllowances>
+					<TravelDocuments>
+						<SecureFlightTravelDocuments>
+							<SecureFlightTravelDocument Action="deleted" DateOfBirth="1967-10-02T00:00:00-07:00" FirstName="RICHARDSON" Gender="F" LastName="TESTER" MiddleName="" NameSuffix="" />
+							<SecureFlightTravelDocument Action="keep" DateOfBirth="1967-10-02T00:00:00-07:00" FirstName="RICHARDSON" Gender="F" LastName="TESTER" MiddleName="" NameSuffix="" />
+						</SecureFlightTravelDocuments>
+					</TravelDocuments>
+					<PricingInput Retain="false" TaxesAsOfDate="20160205">
+						<PricingInputComponent>
+							<PricingInputSegments>
+								<PricingInputSegment CrsSegID="2" SegNbr="1" TripNbr="1" PricingSegID="1" />
+							</PricingInputSegments>
+							<PricingInputPax PaxID="0" PaxTypeMatchRequired="false">
+								<Pax AcctCode="" DiscountCode="" Type="ADT" />
+							</PricingInputPax>
+							<CommandPrice FareBasis="H07N3" FareDest="PDX" FareOrig="SEA" TktDesignator="" />
+							<FaresAsOfDate BeginDate="20160205" EndDate="20160205" />
+							<RulesAsOfDate BeginDate="20160205" EndDate="20160205" />
+							<FareFilter HideAdvPurchFares="false" HideMinMaxStayFares="false" HidePenaltyFares="false" />
+						</PricingInputComponent>
+						<PricingInputComponent>
+							<PricingInputSegments>
+								<PricingInputSegment CrsSegID="3" SegNbr="1" TripNbr="2" PricingSegID="2" />
+								<PricingInputSegment CrsSegID="4" SegNbr="1" TripNbr="3" PricingSegID="3" />
+							</PricingInputSegments>
+							<PricingInputPax PaxID="0" PaxTypeMatchRequired="false">
+								<Pax AcctCode="" DiscountCode="" Type="ADT" />
+							</PricingInputPax>
+							<CommandPrice FareBasis="M07AN3" FareDest="ANC" FareOrig="PDX" TktDesignator="" />
+							<FaresAsOfDate BeginDate="20160205" EndDate="20160205" />
+							<RulesAsOfDate BeginDate="20160205" EndDate="20160205" />
+							<FareFilter HideAdvPurchFares="false" HideMinMaxStayFares="false" HidePenaltyFares="false" />
+						</PricingInputComponent>
+					</PricingInput>
+					<PricingSolutions>
+						<PricingSolution Action="reissue_old" AlreadyTktd="true" BaseFare="944.78" BaseFareDiscount="0.00" BookedOnWeb="true" CreationDate="20160205" CreationTime="1002" Currency="USD" Endorsements="NO REF/CHG FEE/AS ONLY" EquivBaseFare="944.78" EquivCurrency="USD" FareLadder="LAX AS X/SEA402.79YASR1 AS PDX106.05H07N3 AS SEA AS ANC435.94M07AN3 944.78END ZPLAXSEAPDXSEA XT16.80AY16.00ZP9.00XFLAX4.5SEA4.5" FareLadderAssumingBoxedTaxes="LAX AS X/SEA402.79YASR1 AS PDX106.05H07N3 AS SEA AS ANC435.94M07AN3 944.78END ZPLAXSEAPDXSEA XFLAX4.5SEA4.5" FareLadderBaseFareAndSurcharges="944.78" FareLadderToPrimaryROE="0" FirstName="RICHARDSON" IssueDate="20160205" IssueDateTime="2016-02-05T00:00:00-08:00" LastName="TESTER" MatchesItin="true" MatchesItinExceptCabin="true" OriginalTicketNbr="0272182142882" OriginalTicketNbrEndSeq="0272182142882" OriginalIssueDate="20160128" PartlyUsed="false" PaxID="0" PaxNbr="1.1" PaxType="ADT" PricingProvider="ITA" PricingSource="ETicket" PrimaryBaseFare="944.78" PrimaryCurrency="USD" Tax="94.92" TaxDiscount="0.00" TicketNbr="0272182143193" TicketNbrEndSeq="0272182143193" TktCreationAtacCode="TM" TktCreationCity="NET" TktExpirationDate="20170128" TotalDiscountUSDAmt="0.00" TotalFare="1039.70" TotalFareDiscount="0.00" Type="ETicket" ValidForTvl="true" ValidUpgradeExists="false">
+							<PricingInput Retain="false" TaxesAsOfDate="20160205">
+								<PricingInputComponent>
+									<PricingInputSegments>
+										<PricingInputSegment CrsSegID="2" SegNbr="1" TripNbr="1" PricingSegID="1" />
+									</PricingInputSegments>
+									<PricingInputPax PaxID="0" PaxTypeMatchRequired="false">
+										<Pax AcctCode="" DiscountCode="" Type="ADT" />
+									</PricingInputPax>
+									<CommandPrice FareBasis="H07N3" FareDest="PDX" FareOrig="SEA" TktDesignator="" />
+									<FaresAsOfDate BeginDate="20160205" EndDate="20160205" />
+									<RulesAsOfDate BeginDate="20160205" EndDate="20160205" />
+									<FareFilter HideAdvPurchFares="false" HideMinMaxStayFares="false" HidePenaltyFares="false" />
+								</PricingInputComponent>
+								<PricingInputComponent>
+									<PricingInputSegments>
+										<PricingInputSegment CrsSegID="3" SegNbr="1" TripNbr="2" PricingSegID="2" />
+										<PricingInputSegment CrsSegID="4" SegNbr="1" TripNbr="3" PricingSegID="3" />
+									</PricingInputSegments>
+									<PricingInputPax PaxID="0" PaxTypeMatchRequired="false">
+										<Pax AcctCode="" DiscountCode="" Type="ADT" />
+									</PricingInputPax>
+									<CommandPrice FareBasis="M07AN3" FareDest="ANC" FareOrig="PDX" TktDesignator="" />
+									<FaresAsOfDate BeginDate="20160205" EndDate="20160205" />
+									<RulesAsOfDate BeginDate="20160205" EndDate="20160205" />
+									<FareFilter HideAdvPurchFares="false" HideMinMaxStayFares="false" HidePenaltyFares="false" />
+								</PricingInputComponent>
+							</PricingInput>
+							<IssueDates>
+								<IssueDate Date="20160205" />
+								<IssueDate Date="20160201" />
+								<IssueDate Date="20160128" />
+							</IssueDates>
+							<PaymentForm>
+								<CreditCard Action="keep" ExpiryMonth="~~4622B99E-EFBA-4e3b-9AE0-9C19EC60C045|001|gACB4w/9c3STEiw97or049kECc5ho/ZuwQx5+lvLv1zveCYWNlHXGPwPK3be+q9L/kCTZmcqpl4PrkmCqZmDS1DcU8nrYb/e8+OiIhRJuXgetzV6scvQPAnwyguy94q8zlcMhQYOoO/J0SZWKsmMHu75buJdrQLVmIoGFgIZJQpe9X+zrwxkoJ6lYmwIgOhYIQY0UK9asT67zv6HdD+FN90k" ExpiryYear="~~4622B99E-EFBA-4e3b-9AE0-9C19EC60C045|001|gACq7i+6ucO0MwrTNwHw8XOqSYgzRgZCQ49HBEwjKXZZHrNFKSmR3zMX94oDq4f4zM1MhktWNCatqv6wIzSVC7NR6uLnl3WGedHtJwhC2wiDlm4OuKCj29H4u8YC5kr4hxt2fOXBVZ1i6X21vnSEEmoaQtttjXPRCRorxGekle5dtGvecsxBNazGGk5tWDBnS0ileDuBYaQwtzsD7l56+ueS" IssueCompName="" Number="~~4622B99E-EFBA-4e3b-9AE0-9C19EC60C045|001|gABJ7cWVtiqhqzQa0C0OZq3HgrgqOtsJUz1nEXUMr6hQzErrVB/XKkrA6RLMqBjsx5h1VPBnvIZd8NQmDJJMtNf75QDrrr8tiAUJlt2ZHc+fNudYZqbjJX7ve5KE86+HRphP4AgrMoIHQXisvo9iW9d/v82aUyaBOisk3qQhDgOOH2iFxkt3nNGTxERbe2OHhvS00XWSXL8hFqcHjL7JocEG" PersonName="INSIK TESTER" Type="AS">
+									<Address BldgRoom="NO722" CityName="SEATTLE" CountryCode="US" PersonName="INSIK TESTER" PostalCode="98109" StateProv=" WA" StreetNmbr="1308 6TH AVE N" />
+									<Telephone Action="keep" CountryCode="1" Extension="" Number="36056190" />
+								</CreditCard>
+								<Email Action="" Addr="" />
+							</PaymentForm>
+							<FeesAndTaxes>
+								<FeeOrTax Amt="4.00" Boxed="false" Code="ZP" CountryCode="US" CRSCode="ZP" Currency="USD" DepCity="LAX" ID="USZP" RefundAmt="0.00" Sequence="0" USDAmt="4.00" Name="" />
+								<FeeOrTax Amt="4.00" Boxed="false" Code="ZP" CountryCode="US" CRSCode="ZP" Currency="USD" DepCity="SEA" ID="USZP" RefundAmt="0.00" Sequence="1" USDAmt="4.00" Name="" />
+								<FeeOrTax Amt="4.00" Boxed="false" Code="ZP" CountryCode="US" CRSCode="ZP" Currency="USD" DepCity="PDX" ID="USZP" RefundAmt="0.00" Sequence="2" USDAmt="4.00" Name="" />
+								<FeeOrTax Amt="4.00" Boxed="false" Code="ZP" CountryCode="US" CRSCode="ZP" Currency="USD" DepCity="SEA" ID="USZP" RefundAmt="0.00" Sequence="3" USDAmt="4.00" Name="" />
+								<FeeOrTax Amt="4.50" Boxed="false" Code="XF" CountryCode="US" CRSCode="XF" Currency="USD" DepCity="LAX" ID="USPFC" RefundAmt="0.00" Sequence="0" USDAmt="4.50" Name="" />
+								<FeeOrTax Amt="4.50" Boxed="false" Code="XF" CountryCode="US" CRSCode="XF" Currency="USD" DepCity="SEA" ID="USPFC" RefundAmt="0.00" Sequence="1" USDAmt="4.50" Name="" />
+								<FeeOrTax Amt="8.90" Boxed="true" Code="US1" CountryCode="US" CRSCode="US" Currency="USD" ID="USTRANSP" RefundAmt="0.00" USDAmt="8.90" Name="" />
+								<FeeOrTax Amt="16.80" Boxed="false" Code="AY" CountryCode="US" CRSCode="AY" Currency="USD" ID="USSECURITY" RefundAmt="0.00" USDAmt="16.80" Name="" />
+								<FeeOrTax Amt="44.22" Boxed="true" Code="US1" CountryCode="US" CRSCode="US" Currency="USD" ID="USTRANSP" RefundAmt="0.00" USDAmt="44.22" Name="" />
+							</FeesAndTaxes>
+							<FareBases>
+								<FareBasis Amt="402.79" Carrier="AS" Code="YASR1" Currency="USD" Discount="0.00" EquivCurrency="USD" FareBasisID="0" PaxType="ADT" TktDesignator="" USDAmt="402.79" USDDiscount="0.00">
+									<FaresAsOfDate BeginDate="20160205" EndDate="20160205" />
+									<RulesAsOfDate BeginDate="20160205" EndDate="20160205" />
+									<FeesAndTaxes />
+									<Segments>
+										<Segment Action="keep" ArrCity="SEA" Bucket="Y" Cabin="Y" Carrier="AS" CouponStatus="USED" CrsSegID="" DepCity="LAX" DepDate="20160128" DepDay="28" DepMon="JAN" DepTime="1740" Flt="461" HasCOSChange="false" NotValidAfter="20170128" NotValidBefore="20160128" PricingSegID="" SegNbr="" StopoverAllowedAtDepCity="false" TripNbr="">
+											<FeesAndTaxes />
+										</Segment>
+									</Segments>
+									<FareRules Restrictions="U^ITA" />
+								</FareBasis>
+								<FareBasis Amt="106.05" Carrier="AS" Code="H07N3" Currency="USD" Discount="0.00" EquivCurrency="USD" FareBasisID="1" PaxType="ADT" TktDesignator="" USDAmt="106.05" USDDiscount="0.00">
+									<FaresAsOfDate BeginDate="20160205" EndDate="20160205" />
+									<RulesAsOfDate BeginDate="20160205" EndDate="20160205" />
+									<FeesAndTaxes />
+									<Segments>
+										<Segment Action="keep" ArrCity="PDX" Bucket="H" Cabin="Y" Carrier="AS" CouponStatus="OK" CrsSegID="2" DepCity="SEA" DepDate="20160215" DepDay="15" DepDow="0" DepMon="FEB" DepTime="2310" Flt="2175" HasCOSChange="false" NotValidAfter="20170128" NotValidBefore="20160128" PricingSegID="1" SegNbr="1" StopoverAllowedAtDepCity="false" TripNbr="1">
+											<FeesAndTaxes />
+										</Segment>
+									</Segments>
+									<FareRules Restrictions="N^P^AP7^ITA" />
+								</FareBasis>
+								<FareBasis Amt="435.94" Carrier="AS" Code="M07AN3" Currency="USD" Discount="0.00" EquivCurrency="USD" FareBasisID="2" PaxType="ADT" TktDesignator="" USDAmt="435.94" USDDiscount="0.00">
+									<FaresAsOfDate BeginDate="20160205" EndDate="20160205" />
+									<RulesAsOfDate BeginDate="20160205" EndDate="20160205" />
+									<FeesAndTaxes />
+									<Segments>
+										<Segment Action="keep" ArrCity="SEA" Bucket="M" Cabin="Y" Carrier="AS" CouponStatus="OK" CrsSegID="3" DepCity="PDX" DepDate="20160218" DepDay="18" DepDow="3" DepMon="FEB" DepTime="0900" Flt="2154" HasCOSChange="false" NotValidAfter="20170128" NotValidBefore="20160128" PricingSegID="2" SegNbr="1" StopoverAllowedAtDepCity="true" TripNbr="2">
+											<FeesAndTaxes />
+										</Segment>
+										<Segment Action="keep" ArrCity="ANC" Bucket="M" Cabin="Y" Carrier="AS" CouponStatus="OK" CrsSegID="4" DepCity="SEA" DepDate="20160218" DepDay="18" DepDow="3" DepMon="FEB" DepTime="2055" Flt="89" HasCOSChange="false" NotValidAfter="20170128" NotValidBefore="20160128" PricingSegID="3" SegNbr="1" StopoverAllowedAtDepCity="true" TripNbr="3">
+											<FeesAndTaxes />
+										</Segment>
+									</Segments>
+									<FareRules Restrictions="N^P^AP7^ITA" />
+								</FareBasis>
+							</FareBases>
+							<PriceableUnits />
+							<FareRules Restrictions="N^P^AP7^A^ITA" />
+						</PricingSolution>
+						<PricingSolution Action="reissue_new" AlreadyTktd="true" BaseFare="856.86" BaseFareDiscount="0.00" BookedOnWeb="true" CreationDate="20160205" CreationTime="1009" Currency="USD" Endorsements="NO REF/CHG FEE/AS ONLY" EquivBaseFare="856.86" EquivCurrency="USD" FareGuaranteedUntilDay="20160205" FareLadder="LAX AS SEA402.79YASR1 AS PDX106.05H07N3 AS SEA106.05H07N3 AS ANC241.97L14AN4 856.86END ZPLAXSEAPDXSEA XT22.40AY16.00ZP9.00XFLAX4.5SEA4.5" FareLadderAssumingBoxedTaxes="LAX AS SEA402.79YASR1 AS PDX106.05H07N3 AS SEA106.05H07N3 AS ANC241.97L14AN4 856.86END ZPLAXSEAPDXSEA XFLAX4.5SEA4.5" FareLadderBaseFareAndSurcharges="856.86" FareLadderToPrimaryROE="1" FirstName="RICHARDSON" IssueDate="20160205" LastName="TESTER" MatchesItin="true" MatchesItinExceptCabin="true" OriginalTicketNbr="0272182142882" OriginalTicketNbrEndSeq="0272182142882" OriginalIssueDate="20160128" PartlyUsed="true" PaxID="0" PaxNbr="1.1" PaxType="ADT" PricingProvider="ITA" PricingSource="NewITAPrice" PrimaryBaseFare="856.86" PrimaryCurrency="USD" PrimaryToEquivROE="1" Tax="104.44" TaxDiscount="0.00" TicketNbr="0272182143409" TicketNbrEndSeq="0272182143409" TktCreationCity="NET" TktExpirationDate="20170128" TotalDiscountUSDAmt="0.00" TotalFare="961.30" TotalFareDiscount="0.00" Type="ETicket" USTaxDiscount="0.00" ValidForTvl="true" ValidUpgradeExists="false" VerifyPrice="false">
+							<PricingInput Currency="USD" TaxesAsOfDate="20160205">
+								<PricingInputComponent>
+									<PricingInputSegments>
+										<PricingInputSegment CrsSegID="" SegNbr="" TripNbr="" PricingSegID="1" />
+									</PricingInputSegments>
+									<PricingInputPax PaxID="0" PaxTypeMatchRequired="false">
+										<Pax AcctCode="" Age="0" CountryCode="" DiscountCode="" StateCode="" Type="ADT" />
+									</PricingInputPax>
+									<CommandPrice FareBasis="H07N3" FareDest="PDX" FareOrig="SEA" TktDesignator="" />
+									<FaresAsOfDate BeginDate="20160205" EndDate="20160205" />
+									<RulesAsOfDate BeginDate="20160205" EndDate="20160205" />
+									<FareFilter HideAdvPurchFares="false" HideMinMaxStayFares="false" HidePenaltyFares="false" />
+								</PricingInputComponent>
+								<PricingInputComponent>
+									<PricingInputSegments>
+										<PricingInputSegment CrsSegID="3" SegNbr="1" TripNbr="2" PricingSegID="2" />
+									</PricingInputSegments>
+									<PricingInputPax PaxID="0" PaxTypeMatchRequired="false">
+										<Pax AcctCode="" Age="0" CountryCode="" DiscountCode="" StateCode="" Type="ADT" />
+									</PricingInputPax>
+									<CommandPrice FareBasis="H07N3" FareDest="SEA" FareOrig="PDX" TktDesignator="" />
+									<FaresAsOfDate BeginDate="20160205" EndDate="20160205" />
+									<RulesAsOfDate BeginDate="20160205" EndDate="20160205" />
+									<FareFilter HideAdvPurchFares="false" HideMinMaxStayFares="false" HidePenaltyFares="false" />
+								</PricingInputComponent>
+								<PricingInputComponent>
+									<PricingInputSegments>
+										<PricingInputSegment CrsSegID="4" SegNbr="1" TripNbr="3" PricingSegID="3" />
+									</PricingInputSegments>
+									<PricingInputPax PaxID="0" PaxTypeMatchRequired="false">
+										<Pax AcctCode="" Age="0" CountryCode="" DiscountCode="" StateCode="" Type="ADT" />
+									</PricingInputPax>
+									<CommandPrice FareBasis="L14AN4" FareDest="ANC" FareOrig="SEA" TktDesignator="" />
+									<FaresAsOfDate BeginDate="20160205" EndDate="20160205" />
+									<RulesAsOfDate BeginDate="20160205" EndDate="20160205" />
+									<FareFilter HideAdvPurchFares="false" HideMinMaxStayFares="false" HidePenaltyFares="false" />
+								</PricingInputComponent>
+							</PricingInput>
+							<IssueDates />
+							<PaymentForm>
+								<CreditCard Action="keep" AuthCode="052159" ExpiryMonth="~~4622B99E-EFBA-4e3b-9AE0-9C19EC60C045|001|gAA5XVWpmxyD3jix+mIcVxbm7QTR0DMKIIEWma8sEpMk8pl4S0JeNzka/LmJlGGrQqIA8Q8PlDPuIQVlBV5YHJh26zEg5Q9jsCtIZjUmMS0iT9Aax9Ge7xmeH5cMU27+IsmufgDEG3lbHdNP89y7/Now4OcCUM7wypeMnogx6JCygLQgEtoeHiTS9IihqpoL6c6B4RfBhURt5PBOKiEjYvZB" ExpiryYear="~~4622B99E-EFBA-4e3b-9AE0-9C19EC60C045|001|gABFeajQ/TRAuzgiLXXLb1xTBDXQ/5jkDqxVrAMdgJVSmj1hqBvC4plNvcVOT//IDU9cFAXWJO0C17ouAKxi0arE+jj21d1XMETfAo9gzTOTK29IRwacx8TOTy7BabaH/kPx2t7SukWVqQ28FYBGnhnNHlqDeV6eOwlDNmdn8OLKFN6Fe72NNXIXHt9RQydQKQ2zYduS3XMDnVCIXWmmXKWm" Number="~~4622B99E-EFBA-4e3b-9AE0-9C19EC60C045|001|gABhNqSIauwHWKdsavpYeEm0xD55hx6s9yoqKuCi+l1j1ORX2cTGhyFpqbHWnzRus3Y3b+ZAExBLwddNOlO0oueDfNlWwADh50eifXE9dyYWR84xj6UWRj4se5oZ1p8pRT/Bvc0Qds5rbXEH+bGqB/CIu1AN7MxC1Jf/HvbmfVRDA5MevabidBmgBsEj/CpBOSH7MNBwB5EkgbZjCyKIJVtb" PersonName="pradeep tester" Type="AS">
+									<Address BldgRoom="no722" CityName="Seattle" CountryCode="US" PersonName="pradeep tester" PostalCode="98109" StateProv="WA" StreetNmbr="1308 6th Ave N" />
+									<Telephone Action="add" CountryCode="1" Number="3605619079" />
+								</CreditCard>
+								<Email Action="" Addr="" />
+							</PaymentForm>
+							<FeesAndTaxes>
+								<FeeOrTax Amt="4.00" Boxed="false" Code="ZP" CRSCode="ZP" Currency="USD" DepCity="LAX" Sequence="0" USDAmt="4.00" Name="US Flight Segment Tax" />
+								<FeeOrTax Amt="4.00" Boxed="false" Code="ZP" CRSCode="ZP" Currency="USD" DepCity="SEA" Sequence="1" USDAmt="4.00" Name="US Flight Segment Tax" />
+								<FeeOrTax Amt="4.00" Boxed="false" Code="ZP" CRSCode="ZP" Currency="USD" DepCity="PDX" Sequence="2" USDAmt="4.00" Name="US Flight Segment Tax" />
+								<FeeOrTax Amt="4.00" Boxed="false" Code="ZP" CRSCode="ZP" Currency="USD" DepCity="SEA" Sequence="3" USDAmt="4.00" Name="US Flight Segment Tax" />
+								<FeeOrTax Amt="4.50" Boxed="false" Code="XF" CRSCode="XF" Currency="USD" DepCity="LAX" Sequence="0" USDAmt="4.50" Name="US psgr. facility charge" />
+								<FeeOrTax Amt="4.50" Boxed="false" Code="XF" CRSCode="XF" Currency="USD" DepCity="SEA" Sequence="1" USDAmt="4.50" Name="US psgr. facility charge" />
+								<FeeOrTax Amt="8.90" Boxed="true" Code="US2" CountryCode="US" CRSCode="US" Currency="USD" DepCity="SEA" ID="USAKHI" RefundAmt="0.00" USDAmt="8.90" Name="US Alaska/Hawaii Departure Tax" />
+								<FeeOrTax Amt="48.14" Boxed="true" Code="US1" CountryCode="US" CRSCode="US" Currency="USD" ID="USTRANSP" RefundAmt="0.00" USDAmt="48.14" Name="US Transportation Tax" />
+								<FeeOrTax Amt="22.40" Boxed="false" Code="AY" CountryCode="US" CRSCode="AY" Currency="USD" ID="USSECURITY" RefundAmt="0.00" USDAmt="22.40" Name="US Sept. 11 security fee" />
+								<AirGroupFee Amt="125.00" Code="XH" CRSCode="XH" Currency="USD" Discount="0.00" PricingDetailsAlreadyStoredInCrs="false" TicketIssueDate="2016-02-05T10:10:25-08:00" TicketNbr="0272182143410" USDAmt="125.00" USDDiscount="0.00" />
+							</FeesAndTaxes>
+							<FareBases>
+								<FareBasis Amt="402.79" Carrier="AS" Code="YASR1" Currency="USD" Discount="0.00" EquivAmt="402.79" EquivCurrency="USD" FareBasisID="0" ITARulesKey="ApcLrnGHcMD3vsX6uSKjekW5Sm1v6u4Ee1h7OeIeSeoo" PaxType="ADT" Record1FareType="EU" TktDesignator="" USDAmt="402.79" USDDiscount="0.00">
+									<FaresAsOfDate BeginDate="20160205" EndDate="20160205" />
+									<RulesAsOfDate BeginDate="20160205" EndDate="20160205" />
+									<FeesAndTaxes />
+									<Segments>
+										<Segment ArrCity="SEA" ArrDate="20160128" ArrDay="28" ArrMon="JAN" ArrTime="2025" Bucket="Y" Cabin="Y" Carrier="AS" CrsSegID="" DepCity="LAX" DepDate="20160128" DepDay="28" DepMon="JAN" DepTime="1740" DistanceLength="954" DistanceUnit="MI" Equipment="739" Flt="461" GroundDurationMinutes="0" HasCOSChange="false" NbrStops="0" NotValidAfter="20170128" NotValidBefore="20160128" OnTimePcnt="87" Late30PlusMinutesPcnt="6" CanceledPcnt="0" ChronicallyDelayed="false" PricingSegID="1" SegNbr="" StopoverAllowedAtDepCity="true" TravelDurationMinutes="165" TripNbr="">
+											<FeesAndTaxes />
+										</Segment>
+									</Segments>
+									<FareRules Restrictions="U^ITA" />
+								</FareBasis>
+								<FareBasis Amt="106.05" Carrier="AS" Code="H07N3" Currency="USD" Discount="0.00" EquivAmt="106.05" EquivCurrency="USD" FareBasisID="1" ITARulesKey="A/GxDI2tuxGIs2VC8l2QHR42iefqciUDAyjPrxRFNET/" PaxType="ADT" Record1FareType="SIP" TktDesignator="" USDAmt="106.05" USDDiscount="0.00">
+									<FaresAsOfDate BeginDate="20160205" EndDate="20160205" />
+									<RulesAsOfDate BeginDate="20160205" EndDate="20160205" />
+									<FeesAndTaxes />
+									<Segments>
+										<Segment ArrCity="PDX" ArrDate="20160215" ArrDay="15" ArrMon="FEB" ArrTime="2354" Bucket="H" Cabin="Y" Carrier="AS" CrsSegID="2" DepCity="SEA" DepDate="20160215" DepDay="15" DepDow="0" DepMon="FEB" DepTime="2310" DistanceLength="129" DistanceUnit="MI" Equipment="DH4" Flt="2175" GroundDurationMinutes="0" HasCOSChange="false" NbrStops="0" NotValidAfter="20170128" NotValidBefore="20160215" OnTimePcnt="58" Late30PlusMinutesPcnt="19" CanceledPcnt="0" ChronicallyDelayed="false" PricingSegID="1" SegNbr="1" StopoverAllowedAtDepCity="true" TravelDurationMinutes="44" TripNbr="1">
+											<FeesAndTaxes />
+										</Segment>
+									</Segments>
+									<FareRules Restrictions="N^P^AP7^ITA" />
+								</FareBasis>
+								<FareBasis Amt="106.05" Carrier="AS" Code="H07N3" Currency="USD" Discount="0.00" EquivAmt="106.05" EquivCurrency="USD" FareBasisID="2" ITARulesKey="A/GxDI2tuxGIs2VC8l2QHR42iefqciUDAyjPrxRFNET/" PaxType="ADT" Record1FareType="SIP" TktDesignator="" USDAmt="106.05" USDDiscount="0.00">
+									<FaresAsOfDate BeginDate="20160205" EndDate="20160205" />
+									<RulesAsOfDate BeginDate="20160205" EndDate="20160205" />
+									<FeesAndTaxes />
+									<Segments>
+										<Segment ArrCity="SEA" ArrDate="20160218" ArrDay="18" ArrMon="FEB" ArrTime="0950" Bucket="H" Cabin="Y" Carrier="AS" CrsSegID="3" DepCity="PDX" DepDate="20160218" DepDay="18" DepDow="3" DepMon="FEB" DepTime="0900" DistanceLength="129" DistanceUnit="MI" Equipment="DH4" Flt="2154" GroundDurationMinutes="0" HasCOSChange="false" NbrStops="0" NotValidAfter="20170128" NotValidBefore="20160218" OnTimePcnt="73" Late30PlusMinutesPcnt="10" CanceledPcnt="0" ChronicallyDelayed="false" PricingSegID="2" SegNbr="1" StopoverAllowedAtDepCity="true" TravelDurationMinutes="50" TripNbr="2">
+											<FeesAndTaxes />
+										</Segment>
+									</Segments>
+									<FareRules Restrictions="N^P^AP7^ITA" />
+								</FareBasis>
+								<FareBasis Amt="241.97" Carrier="AS" Code="L14AN4" Currency="USD" Discount="0.00" EquivAmt="241.97" EquivCurrency="USD" FareBasisID="3" ITARulesKey="AfqHGnWIxOTSxXhEiQg44/e+SiUkxPGfCPCmsmmROBqs" PaxType="ADT" Record1FareType="EIP" TktDesignator="" USDAmt="241.97" USDDiscount="0.00">
+									<FaresAsOfDate BeginDate="20160205" EndDate="20160205" />
+									<RulesAsOfDate BeginDate="20160205" EndDate="20160205" />
+									<FeesAndTaxes />
+									<Segments>
+										<Segment ArrCity="ANC" ArrDate="20160219" ArrDay="19" ArrMon="FEB" ArrTime="0945" Bucket="L" Cabin="Y" Carrier="AS" CrsSegID="4" DepCity="SEA" DepDate="20160219" DepDay="19" DepDow="4" DepMon="FEB" DepTime="0700" DistanceLength="1,444" DistanceUnit="MI" Equipment="73G" Flt="93" GroundDurationMinutes="0" HasCOSChange="false" NbrStops="0" NotValidAfter="20170128" NotValidBefore="20160219" OnTimePcnt="100" Late30PlusMinutesPcnt="0" CanceledPcnt="0" ChronicallyDelayed="false" PricingSegID="3" SegNbr="1" StopoverAllowedAtDepCity="true" TravelDurationMinutes="225" TripNbr="3">
+											<FeesAndTaxes />
+										</Segment>
+									</Segments>
+									<FareRules Restrictions="N^P^AP14^ITA" />
+								</FareBasis>
+							</FareBases>
+							<PriceableUnits />
+							<FareRules Restrictions="N^P^AP7^A^ITA" />
+							<ReissueInfo ReissueRequestType="Standard" RefundAmt="-78.40" RefundCertain="true" TotalAmtDue="125.00" WaiveChangeFeeAmt="0.00" WaiveChangeFeeCode="None" waiveChangeFeeTrackingReason="" />
+							<ResidualValue Action="add" Amt="78.40" CertNbr="GL4H9KP2T3LRBSBG" Currency="USD" ExpirationDate="2017-01-28T00:00:00-08:00" SendTo="personal wallet" />
+						</PricingSolution>
+					</PricingSolutions>
+					<PaperTickets />
+				</Passenger>
+			</Passengers>
+			<ViewPnrData>
+				<DisableFeatures>
+					<DisableFeature Feature="purchase">
+						<Reason Code="171" Explanation="already purchased" />
+					</DisableFeature>
+					<DisableFeature Feature="reissue">
+						<Reason Code="172" Explanation="reissue not allowed on the confirmation page" />
+					</DisableFeature>
+					<DisableFeature Feature="cancel">
+						<Reason Code="173" Explanation="cancel not allowed on the confirmation page for purchase or reissue" />
+					</DisableFeature>
+					<DisableFeature Feature="webcheckin">
+						<Reason Code="921" Explanation="Unable to find OK coupon within 24hrs" />
+					</DisableFeature>
+				</DisableFeatures>
+			</ViewPnrData>
+			<Itinerary Action="keep" PNRSegCount="4" Upgradable="false" UpgradableForGuest="true" UpgradeShopped="NoUpgradePreference">
+				<Trip TotalDurationMinutes="44" TripNbr="1">
+					<Segment Action="keep" ArrCity="PDX" ArrDate="20160215" ArrDateOffset="0" ArrDay="15" ArrMon="FEB" ArrTime="2354" Bucket="H" Cabin="Y" Carrier="AS" ChangeOfEquipment="false" CheckinInfo="ALASKA AIRLINES" CrsSegID="2" DepCity="SEA" DepDate="20160215" DepDay="15" DepDow="0" DepMon="FEB" DepTime="2310" DispCarrier="AS" DistanceLength="129" DistanceUnit="MI" EligibleForET="true" Equipment="DH4" Flt="2175" GroundDurationMinutes="0" HasCOSChange="false" NbrStops="0" OldCrsSegID="2" OnTimePcnt="58" Late30PlusMinutesPcnt="19" CanceledPcnt="0" ChronicallyDelayed="false" OpCarrier="QX" OpDisclosure="HORIZON AIR AS ALASKA AIRLINES" OpFlt="2175" OpRecLoc="" SegNbr="1" Status="HK" SellResult="NoAttempt" TripNbr="1" TravelDurationMinutes="44" Upgradable="false" UpgradableForGuest="false" SubjectToGovtApproval="false">
+						<Avail ASBucket="Y" ASNbrSeats="7" />
+						<Avail ASBucket="Z" ASNbrSeats="7" />
+						<Avail ASBucket="S" ASNbrSeats="7" />
+						<Avail ASBucket="B" ASNbrSeats="5" />
+						<Avail ASBucket="M" ASNbrSeats="3" />
+						<Avail ASBucket="H" ASNbrSeats="1" />
+						<Avail ASBucket="Q" ASNbrSeats="0" />
+						<Avail ASBucket="L" ASNbrSeats="0" />
+						<Avail ASBucket="V" ASNbrSeats="0" />
+						<Avail ASBucket="K" ASNbrSeats="0" />
+						<Avail ASBucket="G" ASNbrSeats="0" />
+						<Avail ASBucket="T" ASNbrSeats="0" />
+						<Avail ASBucket="R" ASNbrSeats="0" />
+						<Avail ASBucket="N" ASNbrSeats="0" />
+						<Avail ASBucket="W" ASNbrSeats="0" />
+						<Avail ASBucket="E" ASNbrSeats="0" />
+						<Seats>
+							<Seat Action="add" PaxID="0" RequestedSeat="" SeatNbr="" StatusCode="0" />
+						</Seats>
+						<SeatMaps StatusCode="0" StatusDescription="Status Code OK" ArrCity="PDX" DepCity="SEA" Equipment="DH4" />
+					</Segment>
+				</Trip>
+				<Trip TotalDurationMinutes="50" TripNbr="2">
+					<Segment Action="keep" ArrCity="SEA" ArrDate="20160218" ArrDateOffset="0" ArrDay="18" ArrMon="FEB" ArrTime="0950" Bucket="H" Cabin="Y" Carrier="AS" ChangeOfEquipment="false" CheckinInfo="ALASKA AIRLINES" CrsSegID="3" DepCity="PDX" DepDate="20160218" DepDay="18" DepDow="3" DepMon="FEB" DepTime="0900" DispCarrier="AS" DistanceLength="129" DistanceUnit="MI" EligibleForET="true" Equipment="DH4" Flt="2154" GroundDurationMinutes="0" HasCOSChange="true" NbrStops="0" OldCrsSegID="3" OnTimePcnt="73" Late30PlusMinutesPcnt="10" CanceledPcnt="0" ChronicallyDelayed="false" OpCarrier="QX" OpDisclosure="HORIZON AIR AS ALASKA AIRLINES" OpFlt="2154" OpRecLoc="" SegNbr="1" Status="HK" SellResult="NoAttempt" TripNbr="2" TravelDurationMinutes="50" Upgradable="false" UpgradableForGuest="false" SubjectToGovtApproval="false">
+						<Avail ASBucket="Y" ASNbrSeats="7" />
+						<Avail ASBucket="Z" ASNbrSeats="7" />
+						<Avail ASBucket="S" ASNbrSeats="7" />
+						<Avail ASBucket="B" ASNbrSeats="7" />
+						<Avail ASBucket="M" ASNbrSeats="7" />
+						<Avail ASBucket="H" ASNbrSeats="7" />
+						<Avail ASBucket="Q" ASNbrSeats="6" />
+						<Avail ASBucket="L" ASNbrSeats="5" />
+						<Avail ASBucket="V" ASNbrSeats="4" />
+						<Avail ASBucket="K" ASNbrSeats="2" />
+						<Avail ASBucket="G" ASNbrSeats="1" />
+						<Avail ASBucket="T" ASNbrSeats="1" />
+						<Avail ASBucket="R" ASNbrSeats="1" />
+						<Avail ASBucket="N" ASNbrSeats="7" />
+						<Avail ASBucket="W" ASNbrSeats="1" />
+						<Avail ASBucket="E" ASNbrSeats="6" />
+						<Seats>
+							<Seat Action="add" PaxID="0" RequestedSeat="" SeatNbr="" StatusCode="0" />
+						</Seats>
+						<SeatMaps StatusCode="0" StatusDescription="Status Code OK" ArrCity="SEA" DepCity="PDX" Equipment="DH4" />
+					</Segment>
+				</Trip>
+				<Trip TotalDurationMinutes="225" TripNbr="3">
+					<Segment Action="keep" ArrCity="ANC" ArrDate="20160219" ArrDateOffset="0" ArrDay="19" ArrMon="FEB" ArrTime="0945" Bucket="L" Cabin="Y" Carrier="AS" ChangeOfEquipment="false" CheckinInfo="" CrsSegID="4" DepCity="SEA" DepDate="20160219" DepDay="19" DepDow="4" DepMon="FEB" DepTime="0700" DispCarrier="AS" DistanceLength="1,444" DistanceUnit="MI" EligibleForET="true" Equipment="73G" Flt="93" FlightLoadStatus="NotSet" GroundDurationMinutes="0" HasCOSChange="false" NbrStops="0" OnTimePcnt="100" Late30PlusMinutesPcnt="0" CanceledPcnt="0" ChronicallyDelayed="false" OpCarrier="AS" OpDisclosure="" OpFlt="93" SegNbr="1" Status="HK" SellResult="Success" TripNbr="3" TravelDurationMinutes="225" UpgradableForGuest="true" SubjectToGovtApproval="false">
+						<Meal Cabin="F" MealType="B" />
+						<Meal Cabin="Y" MealType="F" />
+						<Meal Cabin="Y" MealType="F" />
+						<Avail ASBucket="F" ASNbrSeats="7" />
+						<Avail ASBucket="D" ASNbrSeats="7" />
+						<Avail ASBucket="P" ASNbrSeats="7" />
+						<Avail ASBucket="U" ASNbrSeats="7" />
+						<Avail ASBucket="A" ASNbrSeats="2" />
+						<Avail ASBucket="Y" ASNbrSeats="7" />
+						<Avail ASBucket="Z" ASNbrSeats="7" />
+						<Avail ASBucket="S" ASNbrSeats="7" />
+						<Avail ASBucket="B" ASNbrSeats="7" />
+						<Avail ASBucket="M" ASNbrSeats="7" />
+						<Avail ASBucket="H" ASNbrSeats="7" />
+						<Avail ASBucket="Q" ASNbrSeats="7" />
+						<Avail ASBucket="L" ASNbrSeats="7" />
+						<Avail ASBucket="V" ASNbrSeats="7" />
+						<Avail ASBucket="K" ASNbrSeats="7" />
+						<Avail ASBucket="G" ASNbrSeats="7" />
+						<Avail ASBucket="T" ASNbrSeats="7" />
+						<Avail ASBucket="R" ASNbrSeats="7" />
+						<Avail ASBucket="N" ASNbrSeats="7" />
+						<Avail ASBucket="W" ASNbrSeats="3" />
+						<Avail ASBucket="E" ASNbrSeats="7" />
+						<Seats>
+							<Seat Action="add" PaxID="0" RequestedSeat="" SeatNbr="" StatusCode="0" />
+						</Seats>
+						<SeatMaps StatusCode="0" StatusDescription="Status Code OK" ArrCity="ANC" DepCity="SEA" Equipment="73G" />
+					</Segment>
+				</Trip>
+			</Itinerary>
+			<Itinerary Action="delete" HistoryExists="true" PNRSegCount="3" TripBoundariesKnown="false" Upgradable="false" UpgradableForGuest="true">
+				<Trip TripNbr="1">
+					<Segment Action="keep" ArrCity="PDX" ArrDate="20160215" ArrDateOffset="0" ArrDay="15" ArrMon="FEB" ArrTime="2354" Bucket="H" Cabin="Y" Carrier="AS" ChangeOfEquipment="false" CheckinInfo="ALASKA AIRLINES" CrsSegID="2" DepCity="SEA" DepDate="20160215" DepDay="15" DepDow="0" DepMon="FEB" DepTime="2310" DispCarrier="AS" DistanceLength="129" DistanceUnit="MI" EligibleForET="true" Equipment="DH4" Flt="2175" GroundDurationMinutes="0" HasCOSChange="false" NbrStops="0" OnTimePcnt="58" Late30PlusMinutesPcnt="19" CanceledPcnt="0" ChronicallyDelayed="false" OpCarrier="QX" OpDisclosure="HORIZON AIR AS ALASKA AIRLINES" OpFlt="2175" OpRecLoc="" SegNbr="1" Status="HK" TripNbr="1" TravelDurationMinutes="44" Upgradable="false" UpgradableForGuest="false">
+						<Avail ASBucket="Y" ASNbrSeats="7" />
+						<Avail ASBucket="Z" ASNbrSeats="7" />
+						<Avail ASBucket="S" ASNbrSeats="7" />
+						<Avail ASBucket="B" ASNbrSeats="5" />
+						<Avail ASBucket="M" ASNbrSeats="3" />
+						<Avail ASBucket="H" ASNbrSeats="1" />
+						<Avail ASBucket="Q" ASNbrSeats="0" />
+						<Avail ASBucket="L" ASNbrSeats="0" />
+						<Avail ASBucket="V" ASNbrSeats="0" />
+						<Avail ASBucket="K" ASNbrSeats="0" />
+						<Avail ASBucket="G" ASNbrSeats="0" />
+						<Avail ASBucket="T" ASNbrSeats="0" />
+						<Avail ASBucket="R" ASNbrSeats="0" />
+						<Avail ASBucket="N" ASNbrSeats="0" />
+						<Avail ASBucket="W" ASNbrSeats="0" />
+						<Avail ASBucket="E" ASNbrSeats="0" />
+					</Segment>
+				</Trip>
+				<Trip TripNbr="2">
+					<Segment Action="keep" ArrCity="SEA" ArrDate="20160218" ArrDateOffset="0" ArrDay="18" ArrMon="FEB" ArrTime="0950" Bucket="M" Cabin="Y" Carrier="AS" ChangeOfEquipment="false" CheckinInfo="ALASKA AIRLINES" CrsSegID="3" DepCity="PDX" DepDate="20160218" DepDay="18" DepDow="3" DepMon="FEB" DepTime="0900" DispCarrier="AS" DistanceLength="129" DistanceUnit="MI" EligibleForET="true" Equipment="DH4" Flt="2154" GroundDurationMinutes="0" HasCOSChange="false" NbrStops="0" OnTimePcnt="73" Late30PlusMinutesPcnt="10" CanceledPcnt="0" ChronicallyDelayed="false" OpCarrier="QX" OpDisclosure="HORIZON AIR AS ALASKA AIRLINES" OpFlt="2154" OpRecLoc="" SegNbr="1" Status="HK" TripNbr="2" TravelDurationMinutes="50" Upgradable="false" UpgradableForGuest="false">
+						<Avail ASBucket="Y" ASNbrSeats="7" />
+						<Avail ASBucket="Z" ASNbrSeats="7" />
+						<Avail ASBucket="S" ASNbrSeats="7" />
+						<Avail ASBucket="B" ASNbrSeats="7" />
+						<Avail ASBucket="M" ASNbrSeats="7" />
+						<Avail ASBucket="H" ASNbrSeats="7" />
+						<Avail ASBucket="Q" ASNbrSeats="6" />
+						<Avail ASBucket="L" ASNbrSeats="5" />
+						<Avail ASBucket="V" ASNbrSeats="4" />
+						<Avail ASBucket="K" ASNbrSeats="2" />
+						<Avail ASBucket="G" ASNbrSeats="1" />
+						<Avail ASBucket="T" ASNbrSeats="1" />
+						<Avail ASBucket="R" ASNbrSeats="1" />
+						<Avail ASBucket="N" ASNbrSeats="7" />
+						<Avail ASBucket="W" ASNbrSeats="1" />
+						<Avail ASBucket="E" ASNbrSeats="6" />
+					</Segment>
+				</Trip>
+				<Trip TripNbr="3">
+					<Segment Action="deleted" ArrCity="ANC" ArrDate="20160218" ArrDateOffset="0" ArrDay="18" ArrMon="FEB" ArrTime="2336" Bucket="M" Cabin="Y" Carrier="AS" ChangeOfEquipment="false" CrsSegID="4" DepCity="SEA" DepDate="20160218" DepDay="18" DepDow="3" DepMon="FEB" DepTime="2055" DispCarrier="AS" DistanceLength="1,444" DistanceUnit="MI" EligibleForET="true" Equipment="739" Flt="89" GroundDurationMinutes="0" HasCOSChange="false" NbrStops="0" OnTimePcnt="82" Late30PlusMinutesPcnt="5" CanceledPcnt="0" ChronicallyDelayed="false" OpCarrier="AS" OpFlt="89" OpRecLoc="" SegNbr="1" Status="HK" TripNbr="3" TravelDurationMinutes="221" Upgradable="false" UpgradableForGuest="true">
+						<Meal Cabin="Y" MealType="F" />
+						<Avail ASBucket="F" ASNbrSeats="7" />
+						<Avail ASBucket="D" ASNbrSeats="7" />
+						<Avail ASBucket="P" ASNbrSeats="7" />
+						<Avail ASBucket="U" ASNbrSeats="7" />
+						<Avail ASBucket="A" ASNbrSeats="0" />
+						<Avail ASBucket="Y" ASNbrSeats="7" />
+						<Avail ASBucket="Z" ASNbrSeats="7" />
+						<Avail ASBucket="S" ASNbrSeats="7" />
+						<Avail ASBucket="B" ASNbrSeats="7" />
+						<Avail ASBucket="M" ASNbrSeats="7" />
+						<Avail ASBucket="H" ASNbrSeats="7" />
+						<Avail ASBucket="Q" ASNbrSeats="7" />
+						<Avail ASBucket="L" ASNbrSeats="7" />
+						<Avail ASBucket="V" ASNbrSeats="7" />
+						<Avail ASBucket="K" ASNbrSeats="7" />
+						<Avail ASBucket="G" ASNbrSeats="7" />
+						<Avail ASBucket="T" ASNbrSeats="7" />
+						<Avail ASBucket="R" ASNbrSeats="7" />
+						<Avail ASBucket="N" ASNbrSeats="7" />
+						<Avail ASBucket="W" ASNbrSeats="2" />
+						<Avail ASBucket="E" ASNbrSeats="7" />
+					</Segment>
+				</Trip>
+				<TktTimeLimit Action="keep" TimeLimitType="ticketed">
+					<FreeText>T-05FEB-NET5DWB</FreeText>
+				</TktTimeLimit>
+			</Itinerary>
+			<PaperTickets>
+				<PricingSolution Action="keep" AlreadyTktd="true" BaseFare="125.00" BaseFareDiscount="" BookedOnWeb="true" CreationDate="00010101" CreationTime="0000" Currency="USD" Endorsements="  VALID IN CONJ W/PSGR TRVL                                     " EquivBaseFare="125.00" EquivCurrency="USD" FareLadder="SEA AS ANC125.00CHF125/FEE 125.00END" FareLadderAssumingBoxedTaxes="SEA AS ANC125.00CHF125/FEE 125.00END " FareLadderToPrimaryROE="0" FirstName="RICHARDSON" IssueDate="20160205" IssueDateTime="2016-02-05T00:00:00-08:00" LastName="TESTER" MatchesItin="false" MatchesItinExceptCabin="false" OriginalTicketNbr="0272182143194" OriginalTicketNbrEndSeq="0272182143194" OriginalIssueDate="20160205" PaxID="0" PaxNbr="1.1" PaxType="ADT" PricingProvider="SABRE" PricingSource="ETicket" PrimaryBaseFare="125.00" PrimaryCurrency="USD" Tax="0.00" TaxDiscount="" TicketNbr="0272182143194" TicketNbrEndSeq="0272182143194" TktCreationAtacCode="TM" TktCreationCity="NET" TktExpirationDate="20170205" TotalDiscountUSDAmt="" TotalFare="125.00" TotalFareDiscount="" Type="ETicket" ValidForTvl="false" ValidUpgradeExists="false">
+					<PricingInput TaxesAsOfDate="20160205">
+						<PricingInputComponent>
+							<PricingInputSegments />
+							<FaresAsOfDate BeginDate="20160205" EndDate="20160205" />
+						</PricingInputComponent>
+					</PricingInput>
+					<IssueDates />
+					<PaymentForm>
+						<CreditCard Action="keep" ExpiryMonth="~~4622B99E-EFBA-4e3b-9AE0-9C19EC60C045|001|gAByAff8HE9oURwhNWtnTD8oFOJ3E2+2qJ17C01qO4M1zYer+EkONA2HBv9ad750C19Uuvuj26o9vPCywco0LRq9t/uwRR8HbaJSkDZ0QnlZwQgBznFaF5EdQ+QTzwTlTJJ7y2BIUUWejb83XU6Bwelvwd3EkateD2c02dQNWipsxji3XiIoZD07JjtH7eu6+5R74PswwgWjrNrCDwldlS/o" ExpiryYear="~~4622B99E-EFBA-4e3b-9AE0-9C19EC60C045|001|gAAf2ydE97sNnhj1AJIKnL2137y8G2DSUK0DmoLVBL8g1r67dYy6oyLcvF5uI8MesAnZy5aWuvV7PouoMxvEXBYu8+FCpGOfQi5jkWP6vW8htmRn2ixTWYsTRTSGTGxGtn5xvRsTXDMEfF8k0a7yDfeppcLjliFirPn6bd4wB/Zi4yIsP+cj0Ail06Eh/b5E5Bzo5vtGxkym8M6YYdTuPzcY" IssueCompName="" Number="~~4622B99E-EFBA-4e3b-9AE0-9C19EC60C045|001|gACi3WM+yjcyPXa2GVODHPNFg/o/GxqHFW6z927kVP04PAU6CMfPjXD1j6sSP89XgZVolo9zK+R3X8saGO7YuVIaY9SvdRtG1BHO2zAF0MOCuqN2neKhNWsWlRxj4dCElVBserYtJfsYza3GS0k3bkSAQXw193BTu/hqQjrFNzGVeRGUWR6L3l08AxCymYQRyOVw8eoBwXsoEkt/9KY99Imz" PersonName="INSIK TESTER" Type="AS">
+							<Address BldgRoom="NO722" CityName="SEATTLE" CountryCode="US" PersonName="INSIK TESTER" PostalCode="98109" StateProv=" WA" StreetNmbr="1308 6TH AVE N" />
+							<Telephone Action="keep" CountryCode="1" Extension="" Number="36056190" />
+						</CreditCard>
+						<Email Action="" Addr="" />
+					</PaymentForm>
+					<FeesAndTaxes />
+					<FareBases>
+						<FareBasis Amt="125.00" Carrier="AS" Code="CHF125" Currency="USD" Discount="0.00" EquivCurrency="USD" FareBasisID="0" PaxType="ADT" TktDesignator="FEE" USDAmt="125.00" USDDiscount="0.00">
+							<FaresAsOfDate BeginDate="20160205" EndDate="20160205" />
+							<RulesAsOfDate BeginDate="20160205" EndDate="20160205" />
+							<FeesAndTaxes />
+							<Segments>
+								<Segment Action="keep" ArrCity="ANC" Bucket="M" Cabin="Y" Carrier="AS" CouponStatus="PPR" CrsSegID="4" DepCity="SEA" DepDate="20160218" DepDay="18" DepMon="FEB" DepTime="2055" Flt="89" HasCOSChange="false" NotValidAfter="20170218" NotValidBefore="20160218" PricingSegID="1" SegNbr="1" StopoverAllowedAtDepCity="false" TripNbr="3">
+									<FeesAndTaxes />
+								</Segment>
+							</Segments>
+						</FareBasis>
+					</FareBases>
+					<PriceableUnits />
+				</PricingSolution>
+				<PricingSolution Action="keep" AlreadyTktd="true" BaseFare="125.00" BaseFareDiscount="" BookedOnWeb="true" CreationDate="00010101" CreationTime="0000" Currency="USD" Endorsements="  VALID IN CONJ W/PSGR TRVL                                     " EquivBaseFare="125.00" EquivCurrency="USD" FareLadder="SEA AS ANC125.00CHF125/FEE 125.00END" FareLadderAssumingBoxedTaxes="SEA AS ANC125.00CHF125/FEE 125.00END " FareLadderToPrimaryROE="0" FirstName="RICHARDSON" IssueDate="20160201" IssueDateTime="2016-02-01T00:00:00-08:00" LastName="TESTER" MatchesItin="false" MatchesItinExceptCabin="false" OriginalTicketNbr="0272182142359" OriginalTicketNbrEndSeq="0272182142359" OriginalIssueDate="20160201" PaxID="0" PaxNbr="1.1" PaxType="ADT" PricingProvider="SABRE" PricingSource="ETicket" PrimaryBaseFare="125.00" PrimaryCurrency="USD" Tax="0.00" TaxDiscount="" TicketNbr="0272182142359" TicketNbrEndSeq="0272182142359" TktCreationAtacCode="TM" TktCreationCity="NET" TktExpirationDate="20170201" TotalDiscountUSDAmt="" TotalFare="125.00" TotalFareDiscount="" Type="ETicket" ValidForTvl="false" ValidUpgradeExists="false">
+					<PricingInput TaxesAsOfDate="20160201">
+						<PricingInputComponent>
+							<PricingInputSegments />
+							<FaresAsOfDate BeginDate="20160201" EndDate="20160201" />
+						</PricingInputComponent>
+					</PricingInput>
+					<IssueDates />
+					<PaymentForm>
+						<CreditCard Action="keep" ExpiryMonth="~~4622B99E-EFBA-4e3b-9AE0-9C19EC60C045|001|gAAu1xQivsgO5zpsiVA4pYQkT7YIkVyWUTWmEpapRaQkqqwrajW96kehvbagWPn0DM3/YVGC9y7XToby+McbI21asOtcE/fC0Vy2BkeRcY0pwzPm4gICYqu5MEnsH+fG9k3hEhxBJmIUFJqjzgel54MrxT1C+6x/XGr8zrlfHWwUvofD/cfjjgkz7VJiLZxwshNJ2ohaacFFdET8gAr8zR/f" ExpiryYear="~~4622B99E-EFBA-4e3b-9AE0-9C19EC60C045|001|gABLFl6ju7Ai8WSf17hfrzfIYWF/IWtQd6n6qRM2OJtqGSHKrE4yb7pvGtGbWEthbOs+aZy6hn8G56TudON7+Cz2MzgB9amH2cPaStWJjQQ5BXfyZRQm9O3Ilj3uH1962w/VcC2qveFjoZ+M95zE3mJaWWyPA1fcEXdvE/eEIzLLJuyGAasPiIOmuX1irDNufdFrSEwYakzHXxdcmkUTt955" IssueCompName="" Number="~~4622B99E-EFBA-4e3b-9AE0-9C19EC60C045|001|gACHbEpDokSMscYYb+5nZOJGdShYfS82CZkdyqVkFClYYa6mgOBBjcNU2mmVuOtUMD5oz2Aljy9eV+INYFl9a6wKW2OWNddNGXGZLQalyBJOpT77MMnkrwpFcG9llKKiYEfnK1S3ZJCHuQtTpyuyS2DNu/pGmFIe2M2MZS9cvBXQPrIXUb2hYdgnmAwGfeQsM6A5sm1MqgeEwf8/ju9qzoyN" PersonName="INSIK TESTER" Type="AS">
+							<Address BldgRoom="NO722" CityName="SEATTLE" CountryCode="US" PersonName="INSIK TESTER" PostalCode="98109" StateProv=" WA" StreetNmbr="1308 6TH AVE N" />
+							<Telephone Action="keep" CountryCode="1" Extension="" Number="36056190" />
+						</CreditCard>
+						<Email Action="" Addr="" />
+					</PaymentForm>
+					<FeesAndTaxes />
+					<FareBases>
+						<FareBasis Amt="125.00" Carrier="AS" Code="CHF125" Currency="USD" Discount="0.00" EquivCurrency="USD" FareBasisID="0" PaxType="ADT" TktDesignator="FEE" USDAmt="125.00" USDDiscount="0.00">
+							<FaresAsOfDate BeginDate="20160201" EndDate="20160201" />
+							<RulesAsOfDate BeginDate="20160201" EndDate="20160201" />
+							<FeesAndTaxes />
+							<Segments>
+								<Segment Action="keep" ArrCity="ANC" Bucket="L" Cabin="Y" Carrier="AS" CouponStatus="PPR" CrsSegID="4" DepCity="SEA" DepDate="20160218" DepDay="18" DepMon="FEB" DepTime="2055" Flt="89" HasCOSChange="false" NotValidAfter="20170218" NotValidBefore="20160218" PricingSegID="1" SegNbr="1" StopoverAllowedAtDepCity="false" TripNbr="3">
+									<FeesAndTaxes />
+								</Segment>
+							</Segments>
+						</FareBasis>
+					</FareBases>
+					<PriceableUnits />
+				</PricingSolution>
+				<PricingSolution Action="keep" AlreadyTktd="" BaseFare="" BaseFareDiscount="" BookedOnWeb="" CreationDate="" CreationTime="" Currency="" FirstName="" LastName="" MatchesItin="" MatchesItinExceptCabin="" PaxType="" Tax="" TaxDiscount="" TicketNbr="2182143410" TicketNbrEndSeq="2182143410" TktCreationCity="" TotalDiscountUSDAmt="" TotalFare="125.00" TotalFareDiscount="" Type="" ValidUpgradeExists="">
+					<IssueDates />
+					<FeesAndTaxes />
+					<FareBases />
+					<PriceableUnits />
+				</PricingSolution>
+			</PaperTickets>
+			<BaggageInformation />
+			<ItinString RezQuery="SEAPDX-PDXSEA-SEAANC" />
+			<ConfirmationMisc NbrPhase4TktRecords="0">
+				<TransactionID Action="keep" Nbr="45361725fa4684a70948f7706b5f9ev29" EncKey="GaNksnWaZsE+wIdZ6mAl0XUXkj1DtVzPYGscThnA/CluBTFWxJ40MtFgze/AICRU" />
+			</ConfirmationMisc>
+			<LinkedConfirmations IsAdultConfirmationRequired="false" />
+		</Confirmation>
+	</Confirmations>
+	<AgentSession AgentID="7117" AuthorizationLevel="8" ClientID="web_test" PointOfSale="NET" ResAgentAAACity="" ResAgentImageAirport="" ResAgentUserID="" ResAgentSign="" UserGroup="" />
+	<AppHistory Date="20160205" ElapsedSeconds="3.92" FormName="CrsReservationManager" Time="1002" />
+	<AppHistory Date="20160205" ElapsedSeconds="22.262226" FormName="booking engine" Time="" />
+</AagBSElem:BookingState>
