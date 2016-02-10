@@ -11,9 +11,8 @@ var express = require('express'),
 var app = express();
 
 app.use(bodyParser.json({limit: '1000mb'}));
-app.use(bodyParser.urlencoded({
-  extended: true
-}));
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use('/public', express.static('assets'));
 
 app.get('/', function(req, res) {
     var filePath = path.join(__dirname, '/index.html');
@@ -55,9 +54,7 @@ function writeTable(res, nodesByName) {
     var col;
     var find;
     ret += "<head>"
-    + "<style type='text/css'>"
-    + ".cell { border: 1px #000 solid; padding: 5px 10px; }"
-    + "</style>";
+    + "<link rel='stylesheet' type='text/css' href='/public/css/style.css' />";
     ret += "</head>";
 
     for (i = 0; i < nodesByName.length; i++) {
