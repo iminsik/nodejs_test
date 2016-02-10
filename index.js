@@ -62,9 +62,6 @@ function writeTable(res, nodesByName) {
 
     for (i = 0; i < nodesByName.length; i++) {
         for (j = 0; j < nodesByName[i].attributes.length; j++) {
-            if(nodesByName[i].attributes[j].nodeName === 'OpDisclosure') {
-                console.log('hello');
-            }
             columnNames[nodesByName[i].attributes[j].nodeName] = true;
         }
     }
