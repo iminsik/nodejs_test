@@ -51,10 +51,8 @@ app.post('/find', bodyParser({limit:'1000mb'}), function(req, res) {
         ret += getHeader();
         ret += '<body>';
         ret += '<h2>Booking State In</h2>';
-        ret += '<br/>';
         ret += writeTable(columnNamesArray[1], nodesByNameIn);
         ret += '<h2>Booking State Out</h2>';
-        ret += '<br/>';
         ret += writeTable(columnNamesArray[1], nodesByNameOut, columnNamesArray[0]);
         ret += '</body>';
         ret += '</html>';
