@@ -6,6 +6,7 @@
 }
 
 .different {
-    color: red;
+    background-color: red;
     font-weight: bold;
+    color: white;
 }
