@@ -10,11 +10,11 @@ var express = require('express'),
 
 var app = express();
 
-app.use(bodyParser.json({limit: '1000mb'}));
-app.use(bodyParser.urlencoded({ extended: true }));
+// app.use(bodyParser.urlencoded());
+// app.use(bodyParser.json());
 app.use('/public', express.static('assets'));
 
-app.get('/', function(req, res) {
+app.get('/', bodyParser({limit:'1000mb'}), function(req, res) {
     var filePath = path.join(__dirname, '/index.html');
     var stat = fs.statSync(filePath);
     res.writeHead(200, {
@@ -24,7 +24,7 @@ app.get('/', function(req, res) {
     fs.createReadStream(__dirname + '/index.html').pipe(res);
 });
 
-app.post('/find', function(req, res) {
+app.post('/find', bodyParser({limit:'1000mb'}), function(req, res) {
     var ret = '';
     var docin = DOMParser.parseFromString(req.body.inxmlstring);
     var docout = DOMParser.parseFromString(req.body.outxmlstring);
@@ -49,10 +49,14 @@ app.post('/find', function(req, res) {
         columnNamesArray = getColumnNames(nodesByNameIn, nodesByNameOut);
         ret = '<html>';
         ret += getHeader();
+        ret += '<body>';
+        ret += '<h2>Booking State In</h2>';
         ret += '<br/>';
         ret += writeTable(columnNamesArray[1], nodesByNameIn);
+        ret += '<h2>Booking State Out</h2>';
         ret += '<br/>';
         ret += writeTable(columnNamesArray[1], nodesByNameOut, columnNamesArray[0]);
+        ret += '</body>';
         ret += '</html>';
         
         res.writeHead(200, {
