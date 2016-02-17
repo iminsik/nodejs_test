@@ -3,15 +3,21 @@
 </head>
 <body>
 <form method='POST' action='/find'>
-<textarea rows='20' cols='180' name='xmlstring' id='xmlstring'>
-&lt;?xml version="1.0" encoding="UTF-8"?&gt;
-</textarea><br/>
 <select name='format' id='format'>
-    <option value="xml" selected>xml</option>
-    <option value="table">table</option>
+    <option value="table" selected>table</option>
+    <option value="xml">xml</option>
 </select>
 <input type='text' name='searchterm' id='searchterm' />
 <input type='submit' value='Submit' />
+<br />
+<h2>Booking State In</h2>
+<textarea rows='20' cols='180' name='inxmlstring' id='inxmlstring'>
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+</textarea>
+<h2>Booking State Out</h2>
+<textarea rows='20' cols='180' name='outxmlstring' id='outxmlstring'>
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+</textarea><br/>
 </form>
 </body>
 </html>
